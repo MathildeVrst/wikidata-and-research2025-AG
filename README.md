@@ -2,7 +2,8 @@
 
 ## Wikidata and research 2025 
 
-> 5-6 juin 2025, Florence
+> 5-6 juin 2025, Florence  
+> Maxime Guénette -- Mathilde Verstraete -- Marcello Vitali-Rosati
 
 ## Titre de notre présentation 
 
