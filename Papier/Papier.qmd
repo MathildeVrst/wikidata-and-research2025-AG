@@ -1,0 +1,75 @@
+---
+title: "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology"
+author: 
+- Mathilde Verstraete
+- Maxime Guénette 
+- Marcello Vitali-Rosati 
+keywords: Greek Anthology, Digital Philology, Authority 
+format: pdf
+---
+
+## Introduction 
+
+The management and preservation of research data in the Humanities increasingly raises questions about its sustainability, sharing, and validation. In this context, Wikidata constitutes a powerful and collaborative tool. By challenging traditional models where researchers act as both producers and gatekeepers of authority, Wikidata redefines these issues and fosters new paradigms of collaboration.
+
+:::{.callout-important}
+## To add 
+Données issues de la recherche comme golden standard -> problématique 
+:::
+
+## Contexte 
+
+Since 2014, Marcello Vitali-Rosati and his team have been developing the project for a (digital and collaborative) edition of the Greek Anthology (Mellet, 2020; Vitali-Rosati et al., 2021; Mellet and Vitali-Rosati, 2021). The project arose from a need to index and make accessible this vast corpus, a monument of Greek literature. Thanks to the work of numerous contributors with varied profiles, the project's publication platform presents - for each epigram - its location in the Palatine manuscript (the Codex palatinus gr. 23, the main manuscript providing us with the Palatine Anthology), which we have retrieved from the API of the Heidelberg Library's manuscript annotation tool using the IIIF protocol, several translations into different languages, information about the author of the epigram and keywords for the themes that make it up, comments, internal and external references, and alignments between the different translations. A REST API has been set up to query our data. 
+
+In this paper, we focus on keywords, which include authors, cities, and several other categories such as collections, divinities, epithets, and epiclesis (a full list is available at https://anthologiagraeca.org/keywords/). In the course of the project, we implemented a rule requiring all keywords to be linked to Wikidata, meaning that any new keyword added must include a corresponding Wikidata identifier. This decision led to a systematic effort to reconcile our existing data with Wikidata.
+
+Wikidata thus plays a central role in the AG project. All keywords used to annotate the platform either have a Wikidata identifier or are created accordingly -- note that some old keywords still have not been linked to a wikidata id yet, we will talk about that *infra*. This integration proved particularly useful in addressing inconsistencies within our list of authors. Since both Wikidata and our data model are multilingual, discrepancies such as missing authors, duplicate entries, and inconsistent information across languages were directly reflected on our platform (https://anthologiagraeca.org/authors/). To resolve these issues, we first ensured that all authors on the platform had a Wikidata URN. We then expanded our contribution by searching for author names in multiple languages (French, English, Italian, Ancient Greek, and Latin) and adding them to Wikidata. Once this information was uploaded, the Wikidata community quickly reviewed and refined our data to align it with their standards. This process not only enhanced our own dataset but also strengthened Wikidata’s overall accuracy and consistency.
+
+:::{.callout-important}
+## To add 
+- AG 
+- Chantier Auteurs
+- Interactions avec la communauté 
+:::
+
+## Quelques problématiques 
+
+### On co-existing informations and visions du monde 
+
+:::{.callout-important}
+## To add 
+- Coexistence des informations ? 
+- Diversité des visions du monde ? 
+
+> peut-être exemplifier avec le label officiel pour les alternatives label ? (genre, "je veux que ma data soit le vrai label officiel et pas relégué à un label alternatif")
+:::
+
+### Wikidata as a multilingual authority 
+
+### On delegating the curation of academic data 
+
+Rather than positioning ourselves as the sole custodian of authority, we are delegating that responsibility to a wider community.
+What are the implications of this shift toward distributed authority. How can that shift in authority benefit academic research projects? Is Wikidata’s epistemological paradigm coherent with ours? Can we think of a generic epistemological framework to be effectively applied to specific academic endeavors?
+
+### On the dissemination on academic database 
+
+## Wikidata and DH 
+
+:::{.callout-important}
+## To add 
+
+- Je pense qu'on n'a pas grand chose de révolutionnaire à dire ici 
+:::
+
+## Conclusion 
+
+We suggest that Wikidata is not merely a technical tool but rather a space where methodological and epistemological debates can unfold. By engaging with this dynamic, researchers can enhance their projects while contributing to the creation of a more sustainable, inclusive, and collaborative knowledge base.
+
+:::{.callout-important}
+## To add 
+
+- our presentation invites reflection on the implications of this shift toward distributed authority. 
+- How can that shift in authority benefit academic research projects? 
+- Is Wikidata’s epistemological paradigm coherent with ours? 
+- Can we think of a generic epistemological framework to be effectively applied to specific academic endeavors?
+:::
