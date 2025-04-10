@@ -6,6 +6,7 @@ author:
 - Marcello Vitali-Rosati 
 keywords: Greek Anthology, Digital Philology, Authority 
 format: pdf
+bibliography: ref.bib
 ---
 
 ## Introduction 
@@ -17,7 +18,7 @@ The management and preservation of research data in the Humanities increasingly 
 Données issues de la recherche comme golden standard -> problématique 
 :::
 
-## Contexte 
+## Context
 
 Since 2014, Marcello Vitali-Rosati and his team have been developing the project for a (digital and collaborative) edition of the Greek Anthology (Mellet, 2020; Vitali-Rosati et al., 2021; Mellet and Vitali-Rosati, 2021). The project arose from a need to index and make accessible this vast corpus, a monument of Greek literature. Thanks to the work of numerous contributors with varied profiles, the project's publication platform presents - for each epigram - its location in the Palatine manuscript (the Codex palatinus gr. 23, the main manuscript providing us with the Palatine Anthology), which we have retrieved from the API of the Heidelberg Library's manuscript annotation tool using the IIIF protocol, several translations into different languages, information about the author of the epigram and keywords for the themes that make it up, comments, internal and external references, and alignments between the different translations. A REST API has been set up to query our data. 
 
@@ -27,7 +28,7 @@ Wikidata thus plays a central role in the AG project. All keywords used to annot
 
 :::{.callout-important}
 ## To add 
-- AG 
+- AG
 - Chantier Auteurs
 - Interactions avec la communauté 
 :::
@@ -48,18 +49,25 @@ Wikidata thus plays a central role in the AG project. All keywords used to annot
 
 ### On delegating the curation of academic data 
 
-Rather than positioning ourselves as the sole custodian of authority, we are delegating that responsibility to a wider community.
+As this example shows, because we have chosen to involve a wider community as an authority figure, the AG project is no longer the sole custodian of its data. By delegating part of the curatorial process to Wikidata and its contributors, we embrace a model of distributed authority that challenges traditional academic hierarchies. This delegation implies a shift not only in who validates the data, but also in how validation itself is understood — no longer as a top-down, expert-driven process, but as a collective negotiation of meaning, relevance, and accuracy. 
+
+This shift towards distributed authority has many implications. 
+
 What are the implications of this shift toward distributed authority. How can that shift in authority benefit academic research projects? Is Wikidata’s epistemological paradigm coherent with ours? Can we think of a generic epistemological framework to be effectively applied to specific academic endeavors?
 
-### On the dissemination on academic database 
+## Wikidata and Digital Humanities
+Since its creation in 2012, Wikidata have progressively become one of the most important knowledge graph on the web. As structured data are increasingly central to the organization, retrieval, and circulation of information online, Wikidata plays a pivotal role in shaping how knowledge is represented, accessed, and reused.
 
-## Wikidata and DH 
+For this reason, Wikidata is growing in popularity in Digital Humanities (DH). Although there was — and to some extent still is — skepticism regarding its quality and potential as a research tool or platform, recent studies have shown that Wikidata is now widely used across DH projects.[@cookUsesWikidataGalleries2019; @zhaoSystematicReviewWikidata2023] It is primarily seen in this discipline as a content provider to access, publish or disseminate Linked Open Data (LOD) without the technical and financial barriers of the Semantic Web.
 
-:::{.callout-important}
-## To add 
+For others, such as GLAM (Galleries, Libraries, Archives and Museums) institutions, Wikidata is rather used as a publishing platform and metadata curation. As digitization and digital strategies have usually been independent from one institution to another, there is now different levels of accessibility and discoverability in the GLAM sector.[@fagervingWikidataAuthorityControl2023] Thus, Wikidata is used either as a publication platform to create for the first time a digital identifier for cultural heritage enriched with LOD or as a platform to better disseminate cultural collection, link their institutional platform to Wikidata and enrich their metadata.[@candelaSystematicReviewWikidata2024]
 
-- Je pense qu'on n'a pas grand chose de révolutionnaire à dire ici 
-:::
+Beyond its function as a repository or a platform for metadata curation, Wikidata also serves a more connective role. Its structure as a knowledge graph and its integration with Linked Open Data principles enable it to act as a bridge between otherwise siloed datasets. By assigning persistent identifiers and encouraging alignment across vocabularies and standards, Wikidata facilitates interoperability between diverse projects and institutions.
+
+### Wikidata as a linking hub
+Thus, according to DH projects and GLAM institutions, one of the main advantages of Wikidata is being a hub to link different external resources and datasets. This can be done be creating external identifiers properties that will link entities of diverses databases to their correspondent Wikidata item. Lets take for example Megara, an ancient Greek *polis* mentioned three times in the Greek Anthology (AG 7.124;7.337;12.129).
+
+
 
 ## Conclusion 
 
