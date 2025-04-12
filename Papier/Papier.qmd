@@ -7,6 +7,8 @@ author:
 keywords: Greek Anthology, Digital Philology, Authority 
 format: pdf
 bibliography: ref.bib
+csl: chicago_fullnote.csl
+lang: en
 ---
 
 ## Introduction 
@@ -65,9 +67,23 @@ For others, such as GLAM (Galleries, Libraries, Archives and Museums) institutio
 Beyond its function as a repository or a platform for metadata curation, Wikidata also serves a more connective role. Its structure as a knowledge graph and its integration with Linked Open Data principles enable it to act as a bridge between otherwise siloed datasets. By assigning persistent identifiers and encouraging alignment across vocabularies and standards, Wikidata facilitates interoperability between diverse projects and institutions.
 
 ### Wikidata as a linking hub
-Thus, according to DH projects and GLAM institutions, one of the main advantages of Wikidata is being a hub to link different external resources and datasets. This can be done be creating external identifiers properties that will link entities of diverses databases to their correspondent Wikidata item. Lets take for example Megara, an ancient Greek *polis* mentioned three times in the Greek Anthology (AG 7.124;7.337;12.129).
+Thus, according to DH projects and GLAM institutions, one of the main advantages of Wikidata is being a hub to link different external resources and datasets.[@neubertWikidataLinkingHub2017] This can be done be creating external identifiers properties that will link entities of diverses databases to their correspondent Wikidata item. 
 
+Lets take for example Megara, an ancient Greek *polis* mentioned three times in the Greek Anthology ([AG 7.124](https://anthologiagraeca.org/passages/urn:cts:greekLit:tlg7000.tlg001.ag:7.124/); [7.337](https://anthologiagraeca.org/passages/urn:cts:greekLit:tlg7000.tlg001.ag:7.337/); [12.129](https://anthologiagraeca.org/passages/urn:cts:greekLit:tlg7000.tlg001.ag:12.129/)). Its Wikidata item ([Q42307600](https://www.wikidata.org/wiki/Q42307600)) is linked to dictionaries, libraries catalogues and most importantly many databases specialized on Greco-Roman Antiquity such as Pleiades, ToposText or MANTO. By doing so, Wikidata is playing a pivotal role for easy cross-referencing informations and while becoming an authority control mechanism.[@fagervingWikidataAuthorityControl2023] As Linked Open Data are meant to add context to data, it becomes much more efficient to enrich a dataset directly from Wikidata or by cross-querying different databases that are all linked to a single Q item.
 
+Some even goes further and suggests that Wikidata should not be used as a centralized platform to link external resource identifiers, but should rather be used as "the" identifier.[@vanveenWikidataIdentifierIdentifier2019] Having too many identifiers for the same resource (like our example Megara) can be confusing et results in bad reconciliation over time. Using Wikidata as the universal identifier provider would then have many advantages such as having a single description model, offering single SPARQL endpoint and API for accessing and processing data or providing a sustainable option for data storing.
+
+Although this position seems more radical, it does point to one other critical aspect of the relationship between Wikidata and external resources: reciprocal contributing. As demonstrated by a paper on the reciprocal relationship by Wikidata and VIAF, a international platform that combines multiples institutional name authority files, reciprocal comparison between external resources and Wikidata can improved data quality for each platform.[@bianchiniVIAFWikidataComplementary2021] Contributions by GLAM institutions such as libraries could then be transferred to Wikidata and vice-versa.
+
+However, there is an obvious difference in authority figure between a contribution from an institution and one from a Wikidata editor. In academia, authority is frequently synonymous with expertise and influence, recognized and exerted within specific discipline. Outside academia, governments or GLAM institutions are also seen as a source of authority. Within any given area of scholarship, there are individuals who have published influential works and who are regarded as authorities on the subjects they research and write about. This interpretation of the authoritative figure typically establishes a top-down hierarchy, positioning traditional producers of knowledge as its sole custodians.
+
+We argue that this top-down hierarchy is contextual and is not always what is best for knowledge dissemination, especially fort digital platforms. As collaborative, crowdsourced, and peer-contributed platforms such as Wikidata increasingly establish themselves as new forms of authority both within and beyond academia, they raise important questions about the seal of authority and the reliability of the data they provide. This is primarily due to the fact that, in most cases, anyone can contribute to these platforms, which leads some to question the reliability and quality of the data.
+
+Thus, the status of Wikidata's editors as an authority figure is questioned because they are mostly seen by scholars and professionals as "amateurs".[We define "amateur" as a socially engaged non-professional actor who, outside formal institutional frameworks, contributes to cultural, artistic, or documentary activities—often via participatory digital platforms. This figure is usually defined by a high level of self-taught expertise, an individual pursuit of excellence, a paradoxical sociability built on both emancipation and community, and a privileged relationship with digital platforms as new spaces for recognition and knowledge production. See @severoLimperatifParticipatifInstitutions2021] Despite the growing involvement of non-professionals in cultural initiatives—especially on digital platforms, their contributions are frequently regarded as a lesser authoritative figure and require validation by professionals to guarantee their reliability.
+
+https://doi.org/10.1016/j.websem.2021.100679 Continuer avec data quality, instance de contrôle de qualité sur Wikidata
+
+Reciprocial contributing for collective intelligence on digital platform. 
 
 ## Conclusion 
 
@@ -81,3 +97,5 @@ We suggest that Wikidata is not merely a technical tool but rather a space where
 - Is Wikidata’s epistemological paradigm coherent with ours? 
 - Can we think of a generic epistemological framework to be effectively applied to specific academic endeavors?
 :::
+
+## References
