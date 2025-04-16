@@ -6,7 +6,11 @@ author:
 - Marcello Vitali-Rosati 
 keywords: Greek Anthology, Digital Philology, Authority 
 lang: en
-format: pdf
+format:
+  pdf:
+    include-in-header:
+      - text: |
+          \usepackage{hyperref}
 bibliography: ref.bib
 csl: chicago-author-date.csl 
 ---
@@ -22,7 +26,7 @@ The management and preservation of research data in the Humanities increasingly 
 
 ## Context
 
-Since 2014, Marcello Vitali-Rosati and his team have been developing a digital and collaborative edition of the *Greek Anthology* [@verstraetePassesPresentsAnthologiques2024; @verstraete2024; @vitali-rosatiLepopeeNumeriqueLAnthologie2021; @mellet2020; @vitali-rosatiEditorializingGreekAnthology2020]. The project was born out of the need to index and make accessible this foundational corpus, which gathers nearly all the known epigrams of ancient Greek literature. This project has led to [the creation of a platform](https://anthologiagraeca.org/). Drawing on the contributions of a wide range of collaborators, it provides, for each epigram a cluster of information. Each epigram, thus, has its own page where one can find (1) its position in the *Palatine* manuscript (the *codex Palatinus graecus* 23, the principal testimony for the *Palatine Anthology*), retrieved via the IIIF protocol through the Heidelberg Library’s annotation tool linked to its API, (2) multiple translations in various languages, (3) various keywords (author, cities and other thematic keywords), (3) commentaries, (4) internal and external references, and (5) cross-alignments between translations. [A REST API is available](https://anthologiagraeca.org/api/) for querying the dataset.
+Since 2014, Marcello Vitali-Rosati and his team have been developing a digital and collaborative edition of the *Greek Anthology* [@verstraetePassesPresentsAnthologiques2024; @verstraete2024; @vitali-rosatiLepopeeNumeriqueLAnthologie2021; @mellet2020; @vitali-rosatiEditorializingGreekAnthology2020]. The project was born out of the need to index and make accessible this important corpus, which gathers nearly all the known epigrams of ancient Greek literature. This project has led to [the creation of a platform](https://anthologiagraeca.org/). Drawing on the contributions of a wide range of collaborators, it provides, for each epigram a cluster of information. Each epigram, thus, has its own page where one can find (1) its position in the *Palatine* manuscript (the *codex Palatinus graecus* 23, the principal testimony for the *Palatine Anthology*), retrieved via the IIIF protocol through the Heidelberg Library’s annotation tool linked to its API^[TODO - Paris bnf], (2) multiple translations in various languages, (3) different keywords (author, cities and other thematic keywords), (3) commentaries, (4) internal and external references, and (5) cross-alignments between translations. [A REST API is available](https://anthologiagraeca.org/api/) for querying the dataset.
 
 This paper focuses specifically on the use of keywords—covering entities such as (a) authors, (b) cities, and (c) others keywords collections divised in sections like deities, epithets, and epicleses -- [the full list can be found on the website](https://anthologiagraeca.org/keywords/). As part of the project’s development, we introduced a rule requiring all keywords to be linked to Wikidata: any new keyword must be associated with a corresponding Wikidata identifier. This policy prompted a comprehensive reconciliation of our existing metadata with the Wikidata knowledge base.
 
