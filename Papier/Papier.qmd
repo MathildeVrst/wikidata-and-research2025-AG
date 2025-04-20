@@ -88,6 +88,47 @@ Wikidata thus plays a central role in the *AG* project. From the new platform on
 This integration proved especially valuable in addressing inconsistencies within our list of authors. Because both Wikidata and our platform’s data model support multilingual data, discrepancies such as missing names, duplicate entries, and variations across languages (French, English, Italian, Ancient Greek, and Latin) became visible at the data level (see [the list of authors]https://anthologiagraeca.org/authors/()). <!-- @max: est-ce que c'est clair?? pas sûre de moi-->
 To resolve these issues, we first ensured that every author in our database was associated with a Wikidata URI. We then enriched Wikidata itself by adding missing multilingual labels and aliases. Once this information was uploaded, the Wikidata community rapidly reviewed and normalized it according to their standards. This process improved not only the reliability of our own metadata, but also the quality of Wikidata as a federated knowledge base.<!--@math: exemplifier-->
 
+### Methodology
+
+We started by exporting all the author names from our platform and compiling them into a CSV file. This file served both as a *diagnostic tool* and as a working basis for reconciliation with Wikidata. We matched the author names to existing Wikidata entities where possible, flagged ambiguous or missing entries, and created new entities where necessary. We made sure that for each author, the name was available in Latin, French, English, Italian, and Ancient Greek.  Once the data was submitted to Wikidata, the community of editors quickly helped to normalize and verify the data. We then retrieved the data from Wikidata and added it to our platform. This effort led not only to technical improvements, but also to critical editorial interventions. Many cases of dubious or overlapping attributions had to be revisited and clarified through philological research. Below are a few representative examples that illustrate the complexity of this work. 
+
+### Diodoros
+
+Our database initially contained multiple variants of the name Diodoros: “Diodorus”, “Diodoros”, “Diodore de Tarse”, “Diodoros le Grammairien”, “Diodoros Zonas de Sardes”, and even a lowercase entry, “diodorus”. In the Budé edition of the *Greek Anthology* several individuals are recognized under this name: a *Diodoros* without further specification, where attribution remains uncertain, *Diodoros of Tarsus*, *Diodoros Zonas of Sardis*, an orator active during the Mithridatic wars and a second *Diodoros of Sardis*, distinct but poorly attested.<!-- @math, vérifier et ajouter des références--> Given the ambiguity, we opted to retain three distinct *Diodoros* in our database, along with a *catch-all* *Diodoros Epigrammaticus* for unattributed or conflated cases. The label "Epigrammaticus" was adopted (in line with Perseus conventions) for clarity, although it artificially unifies what are likely separate historical individuals. Where the manuscript tradition does not specify a gentilicium or distinguishing epithet, this pragmatic solution provides a stable point of reference.<!-- ambiguous entities--> 
+
+### Phanias
+
+In another example, our data listed two authors under the name Phanias: Phanias (TLG 1578) and Phanias (TLG 1582). According to Gow and Page<!-- (Hellenistic Epigrams, vol. II, pp. 464–475)-->, as well as in the Budé edition, all extant epigrams should be attributed to the latter. The former, while historically attested, was erroneously credited due to editorial confusion. We corrected this by attributing all epigrams to the appropriate Phanias and updating our metadata accordingly.<!-- Mistakes from our platform!-->
+
+### Dionysios
+
+The case of Dionysios illustrates the difficulties posed by common names in the manuscript tradition. Next to several epigrams, we find the simple attribution "Διονυσίου" (of Dionysios) without further clarification. Gow and Page <!--(vol. II, p. 231)--> note that the name Dionysios is extremely common, and there is no internal evidence to determine how many distinct authors are represented in the *Greek Anthology*. Given this uncertainty, we retained existing individual Dionysios when information allowed (Dionysius Andrius, D. Cyzicenus, D. Rhodius, D. Sophista), and introduced a generic *Dionysios* entity for epigrams with unresolved attribution. It is not a perfect solution, and it does not claim to resolve the uncertainty --- but it does allow us to surface that uncertainty clearly, rather than pretending it does not exist. In that sense, it follows the same logic we adopted for the Diodoros entries: not trying to solve an unsolvable problem, but giving it space to be visible and documented. This raises the question of "how do we make ambiguity and uncertainty readable, especially in a digital context?"<!-- common names--> 
+
+### Archias
+
+Finally, the name Archias presented one of the most tangled cases. Our platform listed multiple variants: Archias, Archias d’Antioche, Archias de Byzance, Archias de Macédoine, Archias de Mytilène, Archias of Macedon, and Archias of Mytilene. Perseus, for its part, groups several of these under “Archias Epigrammaticus” (TLG 0126), encompassing grammaticus, makedonos, byzantiou, mitylenaiou, and neoteros. Wikidata (Q80207093) similarly lists "Archias the Epigrammatist" as a general entry, while also redirecting to more specific entities where available. Aulius Licinius Archias (TLG 0127), the subject of Cicero’s Pro Archia, is distinct (Wikidata Q218251).
+
+The Budé dition adds to the confusion, recognizing at least three or four Archias in different volumes, sometimes with contradictory information:
+
+- Archias d’Antioche, also identified as A. Licinius Archias ; 
+- Archias de Byzance, attributed to the Garland of Philip ; 
+- Archias de Macédoine, whose very existence is contested ; 
+- Archias de Mytilène, possibly contemporary with Archias d’Antioche ; 
+- Archias le Jeune, a poorly known poet from the Garland of Philip, possibly the same as Archias d’Antioche.
+
+Faced with such ambiguity, we opted for a layered model: distinct Wikidata entries for the historically or textually identifiable individuals, and disambiguation notes on our platform for overlapping or uncertain cases. This decision also allowed us to align with both scholarly conventions (Gow and Page, Les Belles Lettres) and the existing bibliographic infrastructure (TLG, Perseus, Wikidata).
+
+## Outcomes 
+
+This process led to multiple improvements:
+
+- We clarified and corrected numerous author attributions across our platform ; 
+- We added inline commentary where attribution remains uncertain (e.g., AP 10.38, 11.275) ; 
+- We created new Wikidata entities for epigrammatists previously absent from the knowledge graph and contributed especially to add multilingual information ; 
+- We ensured interoperability between our platform, Wikidata, and other linked data resources.
+
+The link between philological knowledge and semantic technologies is best illustrated by this metadata cleaning project. In addition to improving the internal consistency of our database, it has allowed us to make a significant contribution to Wikidata. 
+
 :::{.callout-important}
 ## TO DO  
 - Chantier Auteurs: retour d'expérience? méthodo? stat(-ish)?
