@@ -6,7 +6,7 @@ author:
 - Marcello Vitali-Rosati 
 keywords: Greek Anthology, Digital Philology, Authority, Wikidata, Collective Intelligence
 lang: en
-format: pdf
+format: docx
 abstract: "As collaborative digital platforms become more common in cultural and Digital Humanities projects, the role of non-experts and their contributions to these platforms is shifting. Platforms such as Wikidata invite a reconsideration of where authority lies: not solely in the hands of experts, but also within a wider community of contributors who bring diverse forms of expertise. This development challenges hierarchies in academic and cultural institutions and raises new questions about validation, trust and collaborative knowledge production. In this paper, we explore these questions through the lens of the *Anthologia Graeca* project, where the integration of Wikidata has become a way of rethinking editorial authority as a shared process."
 abstract-title: Abstract
 bibliography: ref.bib
