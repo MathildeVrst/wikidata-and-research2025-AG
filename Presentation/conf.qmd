@@ -1,6 +1,38 @@
 ---
 title: "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the *Greek Anthology*"
-format: html
+author: 
+- name: Maxime Guénette
+  orcid: 0009-0006-2076-1220
+  affiliation: 
+  - name: Université de Montréal
+- name: Mathilde Verstraete
+  orcid: 0000-0003-1642-8610
+  affiliation: 
+  - name: Université de Montréal
+center-title-slide: true
+echo: true
+date: 05/06/2025
+date-format: long
+lang: en
+format:
+  revealjs:
+    standalone: false
+    width: 100%
+    height: 100%
+    theme: [default, ./style/style_mono_accent.scss]
+    transition: slide
+    navigation-mode: linear
+auto-stretch: true
+preview-links: true
+slide-number: true
+title-slide-attributes: 
+  data-notes: Hello and thank you all for being here today. I'm pleased to present part of my work on my doctoral thesis focusing on Roman religions the creation of gazetteers directly integrated into Wikidata. It should be noted, however, that we are still in the early stages of our thesis and that our conclusions are therefore still preliminary. I would also like to thank the Canadian Social Sciences and Humanities Research Council for its support and confidence in funding this project.
+hide-cursor-time: 2000
+embed-resources: true
+scrollable: true
+logo: image/Udem_logo.png
+footer: Wikidata and Research, University of Florence, June 5-6 2025
+css: ./style/style.css
 ---
 
 ## Introduction @àdécider
@@ -22,17 +54,47 @@ How, then, can expert-led projects — whether developed by academics, governmen
   - We will analyse how Wikidata is embedded in the project’s data model — particularly through our treatment of the keyword “authors” — and how this integration opens new spaces for knowledge production.
   - Finally, drawing on those concrete examples, we will reflect on the tensions between authority and collective intelligence that shape such initiatives, and the ways in which digital infrastructures can both challenge and extend traditional scholarly practices.
 
-## Wikidata and Digital Humanities @maxime
+## Wikidata and Digital Humanities @maxime 
 
+:::{.columns}
+:::{.column width="70%"}
+- Wikidata is a major knowledge graph for structuring and sharing data
+
+- DH projects use it to publish Linked Open Data without technical barriers
+
+- GLAM institutions rely on it for metadata curation and interoperability
+
+:::
+:::{.column}
+![](./image/Wikidata_logo.png){.absolute top="10%" right="3%" height="40%" width="25%"}
+![](./image/DH.png){.absolute top="45%" right="1%" height="30%" width="30%"}
+![](./image/GLAM.png){.absolute top="65%" right="35%" height="35%" width="60%"}
+:::
+:::
 
 :::notes
 Since it was launched in 2012, Wikidata has emerged as one of the most important knowledge graphs on the Web. With increased importance for data structuring and sharing, Wikidata holds a central place in accessing and reusing knowledge.  Despite initial skepticism, it is now widely adopted in Digital Humanities (DH) as a flexible platform for publishing and using Linked Open Data without needing deep technical skills on Semantic Web standards. In the GLAM sector, which is the Galleries, Libraries, Archives, and Museums, Wikidata is used to curate metadata and publish cultural heritage records to increase discoverability and interoperability.
 :::
 
 
-## Wikidata as a linking hub @maxime
+## Wikidata as A Linking Hub @maxime 
 
-- Aller sur la page Wikidata de Mégara + liens qu'on cite 
+:::{.fragment .fade-in-then-out}
+![](./image/Megare.png){.absolute top="8%" left="10%" width="85%" height="85%"}
+:::
+
+:::{.fragment}
+![](./image/Megare_ID.png){fig-align="center"}
+:::
+:::{.fragment}
+![](./image/MANTO.png){.absolute top="25%" left="-0.5%" width="15%" height="20%"}
+:::
+:::{.fragment}
+![](./image/Mythoskop.png){.absolute top="47%" left="0%" width="15%" height="20%"}
+:::
+:::{.fragment}
+![](./image/Pleiades.png){.absolute top="76%" left="-0.2%" width="15%" height="20%"}
+:::
 
 :::notes
 One of Wikidata’s major strengths, widely recognized by Digital Humanities projects and GLAM institutions, lies in its role as a central hub for linking heterogeneous datasets. This is made possible through external identifier properties, which connect Wikidata items to corresponding entities across databases.
@@ -46,7 +108,7 @@ Though this position is more ambitious, it underlines an essential aspect of Wik
 
 ## Authority on Digital Platforms @maxime
 
-This brings us to our central question: how can academic projects and Wikidata be mutually enriching, given the different systems of validation and recognition that operate within each other? While many Wikidata editors have deep expertise, the platform’s structure is built on principles of openness, peer consensus, and collaborative editing rather than formal academic credentials. In contrast, academia tends to associate authority with disciplinary expertise, institutional affiliation, and scholarly output. Similarly, institutions such as governments or GLAM organisations are often recognised as authoritative because of their perceived reliability and structured oversight. These different frameworks can create asymmetries in how contributions are valued and trusted: while academia often operates through top-down models of validation, collaborative platforms like Wikidata rely more on distributed forms of consensus. Understanding and negotiating these differences is key to enhance productive dialogue and collaboration between the two ecosystems. 
+<!--This brings us to our central question: how can academic projects and Wikidata be mutually enriching, given the different systems of validation and recognition that operate within each other? While many Wikidata editors have deep expertise, the platform’s structure is built on principles of openness, peer consensus, and collaborative editing rather than formal academic credentials. In contrast, academia tends to associate authority with disciplinary expertise, institutional affiliation, and scholarly output. Similarly, institutions such as governments or GLAM organisations are often recognised as authoritative because of their perceived reliability and structured oversight. These different frameworks can create asymmetries in how contributions are valued and trusted: while academia often operates through top-down models of validation, collaborative platforms like Wikidata rely more on distributed forms of consensus. Understanding and negotiating these differences is key to enhance productive dialogue and collaboration between the two ecosystems. 
 
 We argue, however, that this top-down hierarchy model is contextual and not always best suited for knowledge dissemination, particularly in the case of digital platforms. As collaborative, crowdsourced, and peer-contributed infrastructures like Wikidata increasingly assert themselves as alternative forms of authority — both within and beyond academia — they challenge conventional assumptions about data reliability and the guaranty of expertise. This is mainly because, in most cases, anyone can contribute to these platforms, leading some to question the quality of the data (Santos, Schwabe, and Lifschitz 2024). 
 
@@ -58,7 +120,7 @@ One of the most effective ways to ensure the quality and relevance of Wikidata i
 
 Another way to reconceptualise authority in DH projects is to integrate Wikidata not only as a reference point, but as a core infrastructural layer for data modelling, curation and publication. In this way, the authoritative role traditionally held by academic experts is distributed and shared with a broader community of Wikidata contributors. Authority is thus reframed — not as a fixed attribute derived from institutional status, but as an emergent property of collaborative practices. Such reframing invites researchers to reconsider their own position — not above or outside the platform, but alongside a distributed network of contributors who collectively construct meaning, value, and trust in data. 
 
-In order to examine these dynamics more thoroughly, we now turn to our case study: the AG project. We will examine how the project builds its digital infrastructure around Wikidata, collective intelligence and participatory practices to challenge and reshape the status of authoritative figures within academic knowledge production.
+In order to examine these dynamics more thoroughly, we now turn to our case study: the AG project. We will examine how the project builds its digital infrastructure around Wikidata, collective intelligence and participatory practices to challenge and reshape the status of authoritative figures within academic knowledge production.-->
 
 :::notes
 This brings us to a central question: how can academic projects and Wikidata mutually enrich one another, given their different systems of validation and authority? While many Wikidata editors have strong expertise, the platform is built on openness, collaborative editing, and peer consensus — rather than formal academic credentials. By contrast, academia tends to associate authority with institutional affiliation, scholarly output, and disciplinary recognition. Similarly, GLAM institutions or government agencies are seen as authoritative due to their structured oversight and perceived reliability.
@@ -76,25 +138,25 @@ To rethink authority in Digital Humanities, we suggest using Wikidata not just a
 To explore this further, we now turn to our case study: the AG project. It demonstrates how Wikidata can support participatory infrastructure and collective validation, offering a model for reshaping authority and collaboration within academic knowledge production.
 :::
 
-## A collaborative and digital edition of the *Greek Anthology* 
+## A collaborative and digital edition of the *Greek Anthology* @mathilde
 
 - Présenter le projet 
 - Présenter l'historique des plateformes 
 - Parler rapidement des partenaires éventuellement (ou pas) 
 - Keyworkds dans l'AG 
 
-## The Authors of the *Greek Anthology*
+## The Authors of the *Greek Anthology* @mathilde
 
 - On va revenir sur la réalisation d'un chantier qui a été particulièrement long: celui du "nettoyage" des auteurs présents jusqu'alors sur la plateforme. 
 - Pour la plupart, assez facile, pour d'autres, beaucoup moins : 
 
-### Phanias
+### Phanias @mathilde
 
-### Diodoros 
+### Diodoros @mathilde
 
-### Dionysios
+### Dionysios @mathilde
 
-### Archias 
+### Archias @mathilde
 
 
 - Marcello voulait aussi aller plus loin en ajoutant les floruit des auteurs etc, ce que j'ai refusé (manque de sources) -- Maxime a dit qu'on pouvait utiliser les références (dont j'admets ne pas avoir connaissance à l'époque, oups) -> à voir, un jour peut-être 
@@ -107,9 +169,16 @@ To explore this further, we now turn to our case study: the AG project. It demon
 
 ## Conclusion @maxime
 
-Wikidata is not just a technical tool for data storage and retrieval; it is a dynamic epistemic space where academic knowledge is collaboratively shaped, revised, and legitimised. By delegating (while taking part of) some of our curatorial authority to Wikidata, the AG project participates in a broader shift towards distributed models of knowledge production (Benkler, Shaw, and Mako Hill 2015; Bücheler et al. 2010). This delegation does not imply an abandonment of academic rigor, but rather a reconfiguration of expertise — one that recognises the value of collective intelligence (Lévy 1994) and the potential of community- driven platforms to maintain high-quality, multilingual, and interoperable data (Surowiecki 2004). 
+<!--Wikidata is not just a technical tool for data storage and retrieval; it is a dynamic epistemic space where academic knowledge is collaboratively shaped, revised, and legitimised. By delegating (while taking part of) some of our curatorial authority to Wikidata, the AG project participates in a broader shift towards distributed models of knowledge production (Benkler, Shaw, and Mako Hill 2015; Bücheler et al. 2010). This delegation does not imply an abandonment of academic rigor, but rather a reconfiguration of expertise — one that recognises the value of collective intelligence (Lévy 1994) and the potential of community- driven platforms to maintain high-quality, multilingual, and interoperable data (Surowiecki 2004). 
 
 The implications of this shift are manifold. It invites researchers to rethink their role not only as producers of content, but also as facilitators of open, dialogical knowledge systems. It also raises critical questions: To what extent can academic standards be reconciled with the epistemological norms of a platform like Wikidata? How do we balance openness with accuracy, and participation with control? Far from erasing these tensions, the integration of Wikidata into our project foregrounds them — and in doing so, creates an opportunity for scholars to collectively reflect on the processes of validation, authorship, and authority.
 
-Ultimately, we suggest that embracing platforms like Wikidata means accepting that academic knowledge is always provisional, situated, and co-produced. It is a move toward a more resilient and plural form of scholarship — one that recognises the potential of the many without losing sight of the responsibility of the few.
+Ultimately, we suggest that embracing platforms like Wikidata means accepting that academic knowledge is always provisional, situated, and co-produced. It is a move toward a more resilient and plural form of scholarship — one that recognises the potential of the many without losing sight of the responsibility of the few.-->
 
+:::notes
+In conclusion, Wikidata is not just a technical tool — it is a collaborative epistemic space where academic knowledge is shaped, revised, and legitimised. In the AG project, we delegate part of our curatorial authority to Wikidata, embracing a shift toward distributed models of knowledge production. This does not weaken academic rigour but redefines expertise through collective intelligence and the potential of community-driven platforms to support high-quality, multilingual, interoperable data.
+
+This shift challenges researchers to act not only as content producers but also as facilitators of open knowledge systems. It raises key questions: Can academic standards align with Wikidata’s norms? How do we balance openness with accuracy?
+
+Rather than resolving these tensions, integrating Wikidata foregrounds them — inviting reflection on validation, authorship, and authority. Embracing such platforms means acknowledging that scholarship is always provisional, situated, and co-produced. Thank you!
+:::
