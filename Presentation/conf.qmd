@@ -84,14 +84,17 @@ Since it was launched in 2012, Wikidata has emerged as one of the most important
 :::
 
 :::{.fragment}
-![](./image/Megare_ID.png){fig-align="center"}
+![](./image/Megare_ID.png)
 :::
+
 :::{.fragment}
 ![](./image/MANTO.png){.absolute top="25%" left="-0.5%" width="15%" height="20%"}
 :::
+
 :::{.fragment}
 ![](./image/Mythoskop.png){.absolute top="47%" left="0%" width="15%" height="20%"}
 :::
+
 :::{.fragment}
 ![](./image/Pleiades.png){.absolute top="76%" left="-0.2%" width="15%" height="20%"}
 :::
@@ -106,7 +109,20 @@ Some scholars argue that Wikidata should go further and become the reference ide
 Though this position is more ambitious, it underlines an essential aspect of Wikidata’s ecosystem: reciprocal contribution. DH projects and GLAM institutions can both feed into and benefit from Wikidata, ultimately improving the quality and reach of their data.
 :::
 
+
+
+
 ## Authority on Digital Platforms @maxime
+
+:::{.fragment .fade-in-then-out}
+![](./image/Authority.png)
+:::
+
+:::{.fragment .fade-in-then-out}
+![](./image/Anthologia_Graeca.png)
+![](./image/Wikidata_logo.png)
+![](./image/Collective_intelligence.jpg)
+:::
 
 <!--This brings us to our central question: how can academic projects and Wikidata be mutually enriching, given the different systems of validation and recognition that operate within each other? While many Wikidata editors have deep expertise, the platform’s structure is built on principles of openness, peer consensus, and collaborative editing rather than formal academic credentials. In contrast, academia tends to associate authority with disciplinary expertise, institutional affiliation, and scholarly output. Similarly, institutions such as governments or GLAM organisations are often recognised as authoritative because of their perceived reliability and structured oversight. These different frameworks can create asymmetries in how contributions are valued and trusted: while academia often operates through top-down models of validation, collaborative platforms like Wikidata rely more on distributed forms of consensus. Understanding and negotiating these differences is key to enhance productive dialogue and collaboration between the two ecosystems. 
 
