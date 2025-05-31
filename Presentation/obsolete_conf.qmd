@@ -194,5 +194,5 @@ In conclusion, Wikidata is not just a technical tool — it is a collaborative e
 
 This shift challenges researchers to act not only as content producers but also as facilitators of open knowledge systems. It raises key questions: Can academic standards align with Wikidata’s norms? How do we balance openness with accuracy?
 
-Rather than resolving these tensions, integrating Wikidata foregrounds them — inviting reflection on validation, authorship, and authority. Embracing such platforms means acknowledging that scholarship is always provisional, situated, and co-produced. Thank you!
+Instead of smoothing over existing tensions, integrating Wikidata brings them to the surface, prompting deeper questions about how knowledge is validated, attributed, and governed. Engaging with such a platform means accepting that scholarship is shaped through collaboration and context, and that it rarely rests on fixed foundations. Thank you!
 :::

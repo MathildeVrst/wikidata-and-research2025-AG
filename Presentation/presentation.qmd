@@ -26,7 +26,7 @@ auto-stretch: true
 preview-links: true
 slide-number: true
 title-slide-attributes: 
-  data-notes: Hello, we are very pleased to be here. 
+  data-notes: 
 hide-cursor-time: 2000
 embed-resources: true
 scrollable: false
@@ -44,7 +44,7 @@ css: ./style/style.css
 >  
 > How do these hybrid models --- which combine scholarly expertise with public participation --- challenge traditional boundaries between academic and amateur contributors, and between knowledge production and validation?
 
-## This talk 
+## Overview
 
 ::: {.incremental}
 
@@ -85,18 +85,18 @@ css: ./style/style.css
 
 ![](./image/MANTO.png){.fragment fragment-index=3 .absolute top="120" left="100" height="200"}
 
-![](./image/Mythoskop.png){.fragment fragment-index=4 .absolute top="350" left="50" height="150"}
+![](./image/Mythoskop.png){.fragment fragment-index=4 .absolute top="350" left="50" height="117"}
 
 ![](./image/Pleiades.png){.fragment fragment-index=5 .absolute top="525" left="100" height="200"}
 
-![](./image/topostext.png){.fragment fragment-index=6 .absolute bottom="0" left="100" height="200"}
+<!--![](./image/topostext.png){.fragment fragment-index=6 .absolute bottom="0" left="100" height="200"}-->
 :::
 
 :::{.column width="75%"}
 
 ::: {.r-stack}
 
-![](./image/Megare.png){.fragment fragment-index=1 height="850"}
+![](./image/Megare.png){.fragment fragment-index=1 height="850" }
 
 ![](./image/Megare_ID.png){.fragment fragment-index=2 height="850"}
 
@@ -124,7 +124,7 @@ css: ./style/style.css
 
 ::::
 
-![](./image/Anthologia_Graeca.png){.absolute  bottom="50" left="100"}
+![](./image/Anthologia_Graeca.png){.absolute  bottom="50" left="50"}
 
 ## A collaborative and digital edition of the *Greek Anthology* 
 
@@ -223,3 +223,13 @@ CSV :
   - *E.g.* : "personification of weapons" (<https://anthologiagraeca.org/keywords/204/>)? 
 
 ## Conclusion
+
+
+- Wikidata redefines academic authority through shared, community-driven knowledge.
+
+- It challenges scholars to balance openness with academic standards.
+
+- It surfaces tensions around validation and authorship in collaborative research.
+
+
+![](./image/knowledge-sharing.png){.absolute left="42%" top="63%" height="30%"}
