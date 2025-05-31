@@ -1,0 +1,225 @@
+---
+title: "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the *Greek Anthology*"
+author: 
+- name: Maxime Guénette
+  orcid: 0009-0006-2076-1220
+  affiliation: 
+  - name: Université de Montréal
+- name: Mathilde Verstraete
+  orcid: 0000-0003-1642-8610
+  affiliation: 
+  - name: Université de Montréal
+center-title-slide: true
+echo: true
+date: 05/06/2025
+date-format: long
+lang: en
+format:
+  revealjs:
+    standalone: false
+    width: 100%
+    height: 100%
+    theme: [default, ./style/style_mono_accent.scss]
+    transition: slide
+    navigation-mode: linear
+auto-stretch: true
+preview-links: true
+slide-number: true
+title-slide-attributes: 
+  data-notes: Hello, we are very pleased to be here. 
+hide-cursor-time: 2000
+embed-resources: true
+scrollable: false
+logo: image/Udem_logo.png
+footer: Wikidata and Research, University of Florence, June 5-6 2025
+css: ./style/style.css
+---
+
+## Introduction 
+
+- Wikidata as a tool in the DH community 
+- Decentralisation of *authority* 
+
+> How, then, can expert-led projects work with a generalist platform such as Wikidata to generate new forms of knowledge?
+>  
+> How do these hybrid models --- which combine scholarly expertise with public participation --- challenge traditional boundaries between academic and amateur contributors, and between knowledge production and validation?
+
+## This talk 
+
+::: {.incremental}
+
+- Integration of Wikidata in DH projects 
+- The digital and collaborative edition of the *Greek Anthology* \: corpus, platforms, current uses of Wikidata 
+- Case Study \: the authors of the *Greek Anthology* 
+- Some thoughts on authority and collective intelligence \: digital infrastructures challenging and extending traditional scholarly practices.
+
+:::
+
+## Wikidata and Digital Humanities 
+
+::::{.columns}
+
+:::{.column width="70%"}
+
+- Wikidata is a major knowledge graph for structuring and sharing data 
+- DH projects use it to publish Linked Open Data without technical barriers 
+- GLAM institutions rely on it for metadata curation and interoperability
+
+![](./image/GLAM.png){fig-align="left" height="300"}
+:::
+
+:::{.column width="30%"}
+
+![](./image/Wikidata_logo.png){fig-align="center" width="350"}
+![](./image/DH.png){fig-align="center" width="350"}
+
+:::
+
+::::
+
+## Wikidata as A Linking Hub 
+
+::::{.columns}
+
+:::{.column width="25%"}
+
+![](./image/MANTO.png){.fragment fragment-index=3 .absolute top="120" left="100" height="200"}
+
+![](./image/Mythoskop.png){.fragment fragment-index=4 .absolute top="350" left="50" height="150"}
+
+![](./image/Pleiades.png){.fragment fragment-index=5 .absolute top="525" left="100" height="200"}
+
+![](./image/topostext.png){.fragment fragment-index=6 .absolute bottom="0" left="100" height="200"}
+:::
+
+:::{.column width="75%"}
+
+::: {.r-stack}
+
+![](./image/Megare.png){.fragment fragment-index=1 height="850"}
+
+![](./image/Megare_ID.png){.fragment fragment-index=2 height="850"}
+
+::: 
+
+:::
+
+::::
+
+## Authority on Digital Platforms
+
+::::{.columns}
+
+:::{.column width="33%"}
+![](./image/Authority.png)
+:::
+
+:::{.column width="33%"}
+![](./image/Wikidata_logo.png)
+:::
+
+:::{.column width="33%"}
+![](./image/Collective_intelligence.jpg)
+:::
+
+::::
+
+![](./image/Anthologia_Graeca.png){.absolute  bottom="50" left="100"}
+
+## A collaborative and digital edition of the *Greek Anthology* 
+
+- Canada Research Chair on Digital Textualities 
+- Fundings (SSHRC) ;
+  - Insight Development (2017-2019)
+  - Insight (2019-2025)
+  - 2 Connections (2022, 2024)
+- Large team :
+  - Main researchers : M. Vitali-Rosati, E. Bouchard, C. Raschle
+  - Coordinator : M. Verstraete, W. Bouchard
+  - Technical development : D. Larlet, S. Rubio, É. Guicherd
+  - Editors : L. Capelo, M. Guénette, É. Bernaer, ... 
+  - Partners : CRIHN, GREN, Perseus, Perseids, Heidelberg’s Library, Liceo classico S. di Cagnazzi (Bari), University of Naples, ... 
+  - Many collaborators ...
+
+## Project's corpus 
+
+- Collection of ancient Greek epigrammatic poetry
+- Classical to Byzantine periods (= 15 centuries of epigrammatics)
+- < successive compilations
+- *Open* corpus:
+  - *AG* = *Palatine Anthology*^[Heidelbergensis Palatinus graecus 23, X^th^ c.] + *Appendix Planudea*^[Marcianus gr. 481, 1299]
+  - According to our API, 4,134 epigrams, by 311 authors
+
+
+## Project's goals {.scrollable .smaller}
+
+- A *hub* for the *Greek Anthology* : Manuscript, Texts (in many languages), Keywords, Comments,... 
+
+::::{.columns}
+:::{.column width="50%"}
+- The platform : <https://anthologiagraeca.org/>
+:::
+:::{.column width="50%"}
+- The API : <https://anthologiagraeca.org/api/> 
+:::
+::::
+
+<video  autoplay loop muted>
+  <source src="image/plateforme.webm" />
+</video>
+
+## A few words on the previous platforms 
+
+- Experimentation is part of the project 
+- Corpus : fragmentary and complex transmission 
+- Different platforms: 
+  - SPIP 
+  - > Designing a digital edition involves more than providing access to texts (Sahle 2016) 
+  - Anthologia Palatina (allowed collaboration) 
+  - Anthologia graeca (collaboration, API, multilingual support)
+
+## The platform's keywords 
+
+:::::{.columns}
+::::{.column width="70%"}
+
+::: {.r-stack}
+
+![](image/csv.png){.fragment height="650"}
+
+![](image/auteurs.png){.fragment height="650"}
+
+![](image/Lucillius.png){.fragment height="650"}
+
+:::
+
+::::
+
+::::{.column width="30%"}
+
+CSV : 
+
+- Author's ID on our platform 
+- Wikidata's ID & URL
+- TLG's ID & URL
+- Languages (latin, french, english, italian, ancient greek) 
+- Action (Nothing, Delete, Create) to do on our platform
+::::
+
+:::::
+
+## Some comments on the outcome and future work
+
+**Authors** : Go further ? (*floruit* ?) 
+
+**Cities** : work in progress 
+
+- ✅ Coordinates 
+- ❌ Names in different languages
+
+**Other keywords** : work in progress 
+
+- Do we want to reconcile everything ? 
+  - *E.g.* : "personification of weapons" (<https://anthologiagraeca.org/keywords/204/>)? 
+
+## Conclusion
