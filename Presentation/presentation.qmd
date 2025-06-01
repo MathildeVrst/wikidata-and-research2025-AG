@@ -35,10 +35,10 @@ footer: Wikidata and Research, University of Florence, June 5-6 2025
 css: ./style/style.css
 ---
 
-## Introduction 
+## Introduction
 
-- Wikidata as a tool in the DH community 
-- Decentralisation of *authority* 
+- Wikidata as an open infrastructure for DH knowledge representation 
+- A decentralisation of *authority* 
 
 > How, then, can expert-led projects work with a generalist platform such as Wikidata to generate new forms of knowledge?
 >  
@@ -48,9 +48,9 @@ css: ./style/style.css
 
 ::: {.incremental}
 
-- Integration of Wikidata in DH projects 
-- The digital and collaborative edition of the *Greek Anthology* \: corpus, platforms, current uses of Wikidata 
-- Case Study \: the authors of the *Greek Anthology* 
+- Wikidata as infrastructure in Digital Humanities
+- Case Study: *Anthologia Graeca* — corpus, platforms, data model (uses of Wikidata) 
+- Focus: Representing the authors of the *Greek Anthology* through Wikidata 
 - Some thoughts on authority and collective intelligence \: digital infrastructures challenging and extending traditional scholarly practices.
 
 :::
@@ -126,41 +126,43 @@ css: ./style/style.css
 
 ![](./image/Anthologia_Graeca.png){.absolute  bottom="50" left="50"}
 
-## A collaborative and digital edition of the *Greek Anthology* 
+## A collaborative and digital edition of the *Greek Anthology* : <https://anthologiagraeca.org/> {.smaller} 
 
-- Canada Research Chair on Digital Textualities 
-- Fundings (SSHRC) ;
+- Led by the Canada Research Chair on Digital Textualities 
+- Funded by the SSHRC ;
   - Insight Development (2017-2019)
   - Insight (2019-2025)
   - 2 Connections (2022, 2024)
-- Large team :
-  - Main researchers : M. Vitali-Rosati, E. Bouchard, C. Raschle
-  - Coordinator : M. Verstraete, W. Bouchard
-  - Technical development : D. Larlet, S. Rubio, É. Guicherd
-  - Editors : L. Capelo, M. Guénette, É. Bernaer, ... 
-  - Partners : CRIHN, GREN, Perseus, Perseids, Heidelberg’s Library, Liceo classico S. di Cagnazzi (Bari), University of Naples, ... 
-  - Many collaborators ...
+- Large and diverse team :
+  - Researchers : M. Vitali-Rosati, E. Bouchard, C. Raschle
+  - Coordinators : M. Verstraete, W. Bouchard
+  - Developers : D. Larlet, S. Rubio, É. Guicherd 
+  - Editors & contributors from UdeM (Research assistants), Naples (University Students), Bari (High School students)... 
+  - Institutional partners: CRIHN, Perseus, Perseids, Heidelberg Library, etc.
 
 ## Project's corpus 
 
-- Collection of ancient Greek epigrammatic poetry
-- Classical to Byzantine periods (= 15 centuries of epigrammatics)
-- < successive compilations
-- *Open* corpus:
-  - *AG* = *Palatine Anthology*^[Heidelbergensis Palatinus graecus 23, X^th^ c.] + *Appendix Planudea*^[Marcianus gr. 481, 1299]
-  - According to our API, 4,134 epigrams, by 311 authors
-
+- Ancient Greek epigrams (6th c. BCE – 10th c. CE)
+  - 15 centuries of literary production 
+- Evolving corpus based on successive compilations 
+- Core manuscripts:
+  - *Palatine Anthology* (Heidelbergensis Pal. gr. 23, 10th c.)
+  - \+
+  - *Appendix Planudea* (Marcianus gr. 481, 1299)
+  - \= 
+  - ***Greek Anthology*** 
+- 4,134 epigrams by 311 authors 
 
 ## Project's goals {.scrollable .smaller}
 
-- A *hub* for the *Greek Anthology* : Manuscript, Texts (in many languages), Keywords, Comments,... 
+- A *hub* for the *Greek Anthology* : Manuscript, Texts Translations, Keywords, Commentaries, Internal and External References, ... 
 
 ::::{.columns}
 :::{.column width="50%"}
-- The platform : <https://anthologiagraeca.org/>
+- An Open-source platform : <https://anthologiagraeca.org/>
 :::
 :::{.column width="50%"}
-- The API : <https://anthologiagraeca.org/api/> 
+- An API : <https://anthologiagraeca.org/api/> 
 :::
 ::::
 
@@ -170,13 +172,11 @@ css: ./style/style.css
 
 ## A few words on the previous platforms 
 
-- Experimentation is part of the project 
-- Corpus : fragmentary and complex transmission 
-- Different platforms: 
-  - SPIP 
-  - > Designing a digital edition involves more than providing access to texts (Sahle 2016) 
-  - Anthologia Palatina (allowed collaboration) 
-  - Anthologia graeca (collaboration, API, multilingual support)
+- 1️⃣ *SPIP prototype* → indexing, first technical/epistemic tests 
+- 2️⃣ *Anthologia Palatina* → contributor-facing platform 
+- 3️⃣ *Anthologia Graeca* → full corpus, multilingual support, LOD + open API  
+
+> Experimentation is part of the project 
 
 ## The platform's keywords 
 
