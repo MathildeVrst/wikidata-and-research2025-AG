@@ -76,54 +76,100 @@ To explore this further, we now turn to our case study: the *Anthologia Graeca* 
 
 ## A collaborative and digital edition of the *Greek Anthology*  @Math
 
-The case study we’ll be focusing on today — and from which our reflections emerge — is the *Anthologia Graeca* project, a collaborative digital edition of the *Greek Anthology*.
+Let me now introduce the case study behind today’s reflections — the *Anthologia Graeca* project, a collaborative digital edition of the *Greek Anthology*.
 
-This project is led by Marcello Vitali-Rosati as part of his Canada Research Chair in Digital Textualities, in collaboration with co-researchers Christian Raschle and Elsa Bouchard. I am the coordinator of the project since 2021. 
+The *Greek Anthology* is a vast and fragmentary collection of of epigrammatic poetry -- mainly, short poems. These epigrams are grouped into thematic books and span over fifteen centuries of literary production, from Classical Greece to the Byzantine period. Rather than being the work of a single author or moment, the *Anthology* is the result of ongoing compilation, transmission, and reorganization.
 
-The project has been supported by multiple grants from the Social Sciences and Humanities Research Council of Canada.
+This corpus is by nature open-ended — shaped by layers of compilation and reassembly over time. 
 
-It brings together a large and diverse team: scholars, developers, editors, students from both the University of Montreal and the University of Naples, as well as even high school students from Bari, Italy. Institutional partners include the CRIHN (Interuniversity Research Centre on the Digital Humanities), the GREN (Research Group on Scholarly Editions in a Digital Context), Perseus and Perseids, Heidelberg University Library, and many more.
+Our aim was to design a digital platform that could reflect this dynamic, evolving structure — one that embraces the *Anthology*’s fluidity instead of imposing artificial boundaries.
 
-This rich and distributed collaboration provides a perfect context for thinking through how Wikidata can reshape editorial models and the distribution of authority in scholarly projects.
+## Project Origins and Team 
 
-## Project's corpus @Math
+The project was launched in 2014 by Marcello Vitali-Rosati, as part of his Canada Research Chair in Digital Textualities, with collaborators including Christian Raschle and Elsa Bouchard. I’ve been the project coordinator since 2021. 
 
-A few words about the corpus so we know what we're talking about.
+Supported by several grants from the Social Sciences and Humanities Research Council of Canada, it brings together a wide network of scholars, developers, and students — from the University of Montreal, the University of Naples, and even high school students from Bari. Institutional partners include the Interuniversity Research Centre on the Digital Humanities, the Research Group on Scholarly Editions in a Digital Context, Perseus, and the Heidelberg University Library.
 
-The *Greek Anthology* is a collection of ancient Greek epigrammatic poetry, spanning over 15 centuries — from the Classical period to the Byzantine era.
+From the beginning, the project has been grounded in the principles of open science: sharing data, working collaboratively across institutions and disciplines, and building tools that remain accessible and reusable. In that spirit, we turned early on to Wikidata — not only as a resource we could draw from, but as a platform we could also contribute to. This engagement has allowed us to rethink how authority and knowledge circulation function in collaborative digital scholarship.
 
-At its core is the *Palatine Anthology*, preserved in a 10th-century manuscript held in Heidelberg — the codex Palatinus graecus 23. This is traditionally considered the main source.
+## Platform and Goals
 
-To this we add the *Appendix Planudea*, a 13th-century compilation based on different sources. Together, they form what we refer to as the *Greek Anthology* — a corpus that we like to define as open, open both in scope and in structure.
+Our goal was to build a digital infrastructure that acts as a central hub — bringing together information and data related to each epigram: main manuscript images, transcriptions, translations, keywords, commentaries, and references. All of this is accessible in an open and interoperable to support reuse, collaboration, and long-term accessibility.
 
-According to our API, it currently includes 4,134 epigrams attributed to 311 authors.
+The current platform runs on Django, with a public API, and offers access to over 4,000 epigrams attributed to more than 300 authors. While the platform is still evolving — with ongoing work on metadata, referencing, and editorial enrichment — its purpose remains clear: to support collaborative scholarship, semantic annotation, and multilingual engagement with our corpus.
 
-Initially, our platforms focused only on the *Palatine Anthology*. But in a second phase, we extended the scope to cover the broader *Greek Anthology*, in line with our commitment to a more evolving, open, and inclusive corpus.
+One important aspect I want to highlight is that the project didn’t start with a fixed editorial model — it evolved over time, across several platforms. As both our technical and philological understanding matured, so did our goals. This evolution played a crucial role in the reconciliation work I’ll describe in a moment.
 
-## Project's goals @Math
+For instance, in our current platform, adding a new keyword now requires linking it to a corresponding Wikidata identifier. But much of the data we imported from previous versions — built before we implemented this rule  — lacks those identifiers. This mismatch between imported data and current editorial standards is precisely what made reconciliation necessary. 
 
-The project began, somewhat unofficially, in 2014, when Marcello Vitali-Rosati went looking for an epigram he remembered from high school — but couldn’t find easily. Quite a few resources were available on the Web: the manuscript was already digitized, the Greek text was online, and commentaries existed — but everything was scattered, with no consistent indexing.
+## The platform's keywords @Math 
 
-That’s where the idea for *Anthologia Graeca* came from: to create a central hub that brings together manuscripts, texts, translations, keywords linked to Wikidata, commentaries, and references — all in an open and interoperable format.
+Our platform uses keywords to describe and organize the content of each epigram. These keywords fall into several categories:
 
-Today, the platform is built on Django, with a public API that lets anyone retrieve the data. It’s still a work in progress: some content is missing and need to be added, some features are still in development -- like a better referencing to editions used. But all in all, the goal remains clear — to make this corpus accessible, extensible, and richly interconnected.
+1. Authors to whom the epigrams are attributed ;
+2. Cities, about which the epigram is about;
+3. And a broad set of general keywords, which include things like collections, deities, cited poets, famous historical or mythical figures, metrical forms, etc. 
 
-## A few words on the previous platforms  @Math
+The first step of our reconciliation work focused on the authors — both because of their centrality in the corpus and because they provided a manageable entry point for aligning our data with Wikidata.
 
-From the beginning, the goal wasn’t just to give access to the texts, but to experiment with a digital editorial model suited to the *Greek Anthology*’s fragmentary nature and complex transmission.
+I'll start by walking you through that process, and then briefly say a few words on the others.
 
-We started with a first prototype using SPIP, which helped us explore the indexing of our corpus. This led to a second platform: *Anthologia Palatina*, focused on the *Palatine Anthology* only, and allowing users to contribute translations, metadata, and commentary.
+## Reconciling Keywords with Wikidata @Math
 
-As the corpus expanded and new contributors joined, we faced increasing challenges — especially around multilingualism and entity identification. That’s when we moved to the current platform: *Anthologia Graeca*, with a new data model, multilingual support, and a public API.
+During the process of reconciling our authors' names with their Wikidata identifiers, we took the opportunity to check the attributions that had been made on our platform and to add the authors' names in different languages to Wikidata.
 
-## The platform's keywords @Math
+To do so, we began by exporting all our names into a spreadsheet. That gave us a first overview of inconsistencies — duplicates, spelling variants, ambiguous attributions. We added their names in Latin, Ancient Greek, English, French, and Italian.
 
-## Some comments on the outcome and future work @Math
+Our goal -- and this is important -- was to push cleaned data to Wikidata, and then pull it back into our platform -- once structured, normalized, and enriched. But as we engaged with Wikidata, we quickly realized that it wasn’t just a passive repository. The community was highly responsive. Feedback came fast -- sometimes technical, always helpful -- and it forced us to reflect critically on our editorial assumptions.
+
+Let me share two quick examples that illustrate the kind of decisions we had to make.
+
+## Diodoros (ambiguous entries)
+
+Our database initially listed four variants of the name Diodoros, with some entries referring to historical figures that could or could not be the same (“Diodorus, Diodoros”, “Diodore de Tarse, Diodoros le Grammairien”, “Diodoros Zonas de Sardes”, and a lowercase entry, “diodorus”). The Belles Lettres edition mentions at least three poets named Diodoros — and in some cases, it’s impossible to tell which one is being referenced. 
+
+> Diodoros. Trois poètes de la Couronne de Philippe ont porté ce nom : Diodore Zonas, de Sardes, orateur célèbre du temps de la guerre de Mithridate ; un autre Diodoros de Sardes ; enfin, Diodoros de Tarse. On ne sait auquel attribuer les épigrammes où le gentilicium n’est pas spécifié. (Waltz 2003, II:142–43)
+
+So we decided to keep separate entities when possible and created a generic “Diodoros Epigrammaticus” entry  (in line with Perseus conventions) for unattributed cases. This solution may not be perfect, but it’s honest — and it lets uncertainty remain visible rather than artificially resolved.
+
+## Dionysos (uncertain attribution for common names) 
+
+The same logic applied to Dionysios, illustrating the difficulties posed by common names in the manuscript tradition. Many epigrams are attributed simply to “Dionysios”, with no further context -- we don't even know how many distinct authors are represented. 
+Instead of choosing arbitrarily, we retained specific identities when clear (Dionysius of Andros, Dionysius of Cyzicus, Dionysius of Rhodes and Dionysius the Sophist), and created a catch-all “Dionysios” entity where attribution was unclear. Again, the idea was to represent uncertainty, not erase it.
+
+This raises the question of “how do we make ambiguity and uncertainty readable, especially in a digital context?”
+
+## Gain for our platform and for wikidata 
+
+What started as metadata cleaning quickly became something deeper. We improved many attributions, added inline commentary for uncertain cases (see AG X.38), created new Wikidata items, and contributed multilingual labels.
+
+But more importantly, we encountered a series of modeling challenges that revealed the tensions between interpretive scholarship and structured ontologies.
+
+A good example is the case of pseudo-authors. One of our entries had been labeled in Ancient Greek with the prefix Ψευδο- — following modern editorial conventions. But the Wikidata community flagged it as problematic: the prefix is rare in ancient sources and may reflect anachronistic assumptions. The label was removed — and the debate forced us to consider how editorial categories translate (or don’t) into semantic web models. 
+
+## Other keywords and future work 
+
+Beyond authors, we worked with other types of keywords. For places, we imported data directly from Wikidata. While the coordinates were very helpful, the multilingual labels were less consistent -- but we intend to add the information on Wikidata in the following months. 
+
+Eventually, we still have to reconcile the other thematics keywords. Some of them are easy, some are not. These categories function as reading tools, but they don’t necessarily align with Wikidata’s data model. Other tags, like bad breath or drunkenness, describe literary motifs — relevant for interpretation, but difficult to represent in a structured ontology.
+
+In short, aligning our data with Wikidata is a major step toward openness and interoperability. But reconciling this data reveals just how difficult it is to map scholarly knowledge into structured ontologies — especially when the two systems weren’t designed to work together in the first place.
 
 ## Conclusion @Math
 
-In conclusion, Wikidata is not just a technical tool — it is a collaborative epistemic space where academic knowledge is shaped, revised, and legitimised. In the AG project, we delegate part of our curatorial authority to Wikidata, embracing a shift toward distributed models of knowledge production. This does not weaken academic rigour but redefines expertise through collective intelligence and the potential of community-driven platforms to support high-quality, multilingual, interoperable data.
+To conclude: Wikidata is not just a technical backend. It is a collaborative epistemic space — a platform where academic knowledge is not only stored, but also negotiated, revised, and legitimized.
 
-This shift challenges researchers to act not only as content producers but also as facilitators of open knowledge systems. It raises key questions: Can academic standards align with Wikidata’s norms? How do we balance openness with accuracy?
+In the *Anthologia Graeca* project, linking our editorial work to Wikidata meant delegating part of our curatorial authority to a broader community — not as a loss of academic rigor, but as a deliberate move toward a more distributed model of expertise. A model that values scholarly precision, while also embracing the strength of collective intelligence to support high-quality, multilingual, and interoperable data.
 
-Instead of smoothing over existing tensions, integrating Wikidata brings them to the surface, prompting deeper questions about how knowledge is validated, attributed, and governed. Engaging with such a platform means accepting that scholarship is shaped through collaboration and context, and that it rarely rests on fixed foundations. Thank you!
+
+This shift invites us to rethink our roles as researchers: not only as producers of content, but also as participants in open knowledge systems — where validation is collaborative, multilingual, and always in progress.
+
+It also raises essential questions:
+Can academic standards and open platforms like Wikidata truly align?
+How do we balance transparency with control, or openness with critical nuance?
+
+Rather than smoothing out these tensions, working with Wikidata makes them visible — and in doing so, creates a space for reflection on how knowledge is authored, validated, and shared.
+
+Engaging with such platforms means accepting that authority in the digital age is no longer something we hold — through status, institutional affiliation, or academic citations — but something we negotiate: collectively, contextually, and in dialogue with others.
+
+Thank you.
