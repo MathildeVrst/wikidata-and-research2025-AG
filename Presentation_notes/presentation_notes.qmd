@@ -43,13 +43,13 @@ Finally, drawing on those concrete examples, we will reflect on the tensions bet
 
 Since it was launched in 2012, Wikidata has emerged as one of the most important knowledge graphs on the Web. With increased importance for data structuring and sharing, Wikidata holds a central place in accessing and reusing knowledge. 
 
-Despite initial skepticism, it is now widely adopted in DH as a flexible platform for publishing and using Linked Open Data (LOD) without needing deep technical skills of Semantic Web standards. In the GLAM sector, so Galleries, Libraries, Archives, and Museums, Wikidata is often used to curate metadata and publish cultural heritage records to increase discoverability and interoperability.
+Despite initial skepticism, it is now widely adopted in DH as a flexible platform for publishing and using Linked Open Data (LOD) without needing deep technical skills of Semantic Web standards. In the GLAM sector, Wikidata is often used to curate metadata and publish cultural heritage records to increase discoverability and interoperability.
 
 ## Wikidata as A Linking Hub @Max [1min30sec]
 
 One of Wikidata’s major strengths, widely  by recognized the digital community, lies in its role as a central hub for linking heterogeneous datasets. This is made possible through external identifier properties, which connect Wikidata items to corresponding entities across databases.
 
-Take Megara, the ancient Greek city near Corinth. Its Wikidata item links to a variety of sources — from library catalogues to specialized databases like MANTO (**Slide**), Mythoskop (**Slide**), and Pleiades (**Slide**). These connections support cross-referencing, facilitate authority control, and enrich data through Linked Open Data (LOD). By relying on Wikidata’s Q-items, researchers can efficiently query and integrate related resources across platforms.
+Take for example Megara, an ancient Greek city near Corinth. Its Wikidata item links to a variety of sources — from library catalogues to specialized databases like MANTO (**Slide**), Mythoskop (**Slide**), and Pleiades (**Slide**). These connections support cross-referencing, facilitate authority control, and enrich data through Linked Open Data (LOD). By relying on Wikidata’s Q-items, researchers can efficiently query and integrate related resources across platforms.
 
 Some scholars argue that we should go further and adopt Wikidata as the unique reference identifier. Multiple identifiers for the same entity — like we've seen with Megara — risk fragmenting data and complicating reconciliation. Using Wikidata as a single ID could offer a unified data model, a single SPARQL endpoint, and a long-term sustainability for data querying and storage.
 
@@ -63,7 +63,7 @@ These differing frameworks create asymmetries in how contributions are trusted. 
 
 We argue that traditional hierarchies are not always the most effective model for digital knowledge production. Collaborative platforms such as Wikidata challenge long-standing assumptions about authority by enabling anyone to contribute. This openness raises concerns about data quality, and Wikidata editors are often viewed as amateurs or “citizen scientists.” Their work is frequently only legitimised when endorsed by academic or institutional figures.
 
-Despite these tensions, Wikidata is increasingly recognised as a high-quality knowledge graph. Its reliability is context-dependent and must be assessed case by case. Its community plays a key role in maintaining quality, supported by tools like Shape Expressions (ShEx) that enforce data model consistency. These community-driven mechanisms represent a decentralised but structured approach to data governance.
+<!--Despite these tensions, Wikidata is increasingly recognised as a high-quality knowledge graph. Its reliability is context-dependent and must be assessed case by case. Its community plays a key role in maintaining quality, supported by tools like Shape Expressions (ShEx) that enforce data model consistency. These community-driven mechanisms represent a decentralised but structured approach to data governance.-->
 
 <!--Crucially, improving Wikidata is not just a matter of external assessment but of active engagement.-->  Wikidata is not a finished product but a dynamic infrastructure where quality emerges through interaction. Researchers, GLAM professionals, and contributors from all backgrounds can help shape the platform by adding statements, correcting errors, refining data models, and discussing ontologies. 
 
@@ -87,13 +87,13 @@ From the beginning, the project has been grounded in the principles of open scie
 
 ## Platform and Goals @Math [1min30sec]
 
-Our goal was to build a digital infrastructure that acts as a central hub — bringing together information and data related to each epigram: main manuscript images, transcriptions, translations, keywords, commentaries, and references. All of this is accessible in an open and interoperable platform to support reuse, collaboration, and long-term accessibility.
+Our goal was to build a digital infrastructure that acts as a central hub — bringing together information and data related to each epigram: main manuscript images, transcriptions, translations, keywords, commentaries, and references. <!--All of this is accessible in an open and interoperable platform to support reuse, collaboration, and long-term accessibility.-->
 
 The current platform runs on Django, with a public API. While the platform is still evolving — with ongoing work on metadata, referencing, and editorial enrichment — its purpose remains clear: to support collaborative scholarship, semantic annotation, and multilingual engagement with our corpus.
 
 One important aspect I want to highlight is that the project didn’t start with a fixed editorial model — it evolved over time, across several platforms. As both our technical and philological understanding matured, so did our goals. This evolution played a crucial role in the reconciliation work I’ll describe in a moment.
 
-For instance, in our current platform, adding a new keyword now requires linking it to a corresponding Wikidata identifier. But much of the data that we imported from previous versions — built before we implemented this rule  — lacks those identifiers. This mismatch between imported data and current editorial standards is precisely what made reconciliation necessary. 
+For instance, in our current platform, adding a new keyword now requires linking it to a corresponding Wikidata item. But much of the data that we imported from previous versions — built before we implemented this rule  — lacks this connection. This mismatch between imported data and current editorial standards is precisely what made reconciliation necessary. 
 
 ## The platform's keywords @Math [45sec]
 
