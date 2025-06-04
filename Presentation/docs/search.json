@@ -35,18 +35,18 @@
     "text": "Authority on Digital Platforms"
   },
   {
+    "objectID": "presentation.html#the-greek-anthology",
+    "href": "presentation.html#the-greek-anthology",
+    "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
+    "section": "The Greek Anthology",
+    "text": "The Greek Anthology\n\n\n\nCirca 4.000 poems\nBy over 300 authors\nFrom the Classical to the Byzantine period\nResult of many compilations\n\n→ A collaborative and digital edition of the Greek Anthology\n\n\n\n\nCodex palatinus graecus 23, p. 143"
+  },
+  {
     "objectID": "presentation.html#a-collaborative-and-digital-edition-of-the-greek-anthology",
     "href": "presentation.html#a-collaborative-and-digital-edition-of-the-greek-anthology",
     "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
     "section": "A collaborative and digital edition of the Greek Anthology",
-    "text": "A collaborative and digital edition of the Greek Anthology\n\n\nGreek Anthology :\n\nCirca 4.000 poems\nBy over 300 authors\nFrom the Classical to the Byzantine period\nResult of many compilations\n\n\n\n\n\ncodex palatinus graecus 23, p. 143"
-  },
-  {
-    "objectID": "presentation.html#a-collaborative-and-digital-edition-of-the-greek-anthology-1",
-    "href": "presentation.html#a-collaborative-and-digital-edition-of-the-greek-anthology-1",
-    "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
-    "section": "A collaborative and digital edition of the Greek Anthology",
-    "text": "A collaborative and digital edition of the Greek Anthology\n\n\nhttps://anthologiagraeca.org/ & https://anthologiagraeca.org/api\n\nLed by the Canada Research Chair on Digital Textualities\nFunded by the SSHRC ;\n\nInsight Development (2017-2019)\nInsight (2019-2025)\n2 Connections (2022, 2024)\n\n\n\n\nLarge and diverse team :\n\nResearchers : M. Vitali-Rosati, E. Bouchard, C. Raschle\nCoordinators : M. Verstraete, W. Bouchard\nDevelopers : D. Larlet, S. Rubio, É. Guicherd\nEditors & contributors from UdeM (Research assistants), Naples (University Students), Bari (High School students)…\nInstitutional partners: CRIHN, Perseus, Perseids, Heidelberg Library, etc."
+    "text": "A collaborative and digital edition of the Greek Anthology\n\n\nhttps://anthologiagraeca.org/ & https://anthologiagraeca.org/api\n\nLed by the Canada Research Chair on Digital Textualities\nFunded by the SSHRC ;\n\nInsight Development (2017-2019)\nInsight (2019-2025)\n2 Connections (2022, 2024)\n\n\n\n\n\n\n\n\n\nLarge and diverse team :\n\nResearchers : M. Vitali-Rosati, E. Bouchard, C. Raschle\nCoordinators : M. Verstraete, W. Bouchard\nDevelopers : D. Larlet, S. Rubio, É. Guicherd\nEditors & contributors from UdeM (Research assistants), Naples (University Students), Bari (High School students)…\nInstitutional partners: CRIHN, Perseus, Perseids, Heidelberg Library, etc."
   },
   {
     "objectID": "presentation.html#projects-goals",
@@ -74,14 +74,14 @@
     "href": "presentation.html#e.g-diodoros-ambiguous-entries",
     "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
     "section": "E.g Diodoros (ambiguous entries)",
-    "text": "E.g Diodoros (ambiguous entries)\n\n\nFrom :\n\n“Diodorus, Diodoros”,\n“Diodore de Tarse, Diodoros le Grammairien”,\n“Diodoros Zonas de Sardes”,\n“diodorus”\n\n\nDiodoros. Trois poètes de la Couronne de Philippe ont porté ce nom : Diodore Zonas, de Sardes, orateur célèbre du temps de la guerre de Mithridate ; un autre Diodoros de Sardes ; enfin, Diodoros de Tarse. On ne sait auquel attribuer les épigrammes où le gentilicium n’est pas spécifié. (Waltz 2003, II:142–43)\n\n\nTo :"
+    "text": "E.g Diodoros (ambiguous entries)\n\n\nFrom :\n\n“Diodorus, Diodoros”,\n“Diodore de Tarse, Diodoros le Grammairien”,\n“Diodoros Zonas de Sardes”,\n“diodorus”\n\n\nDiodoros. Trois poètes de la Couronne de Philippe ont porté ce nom : Diodore Zonas, de Sardes, orateur célèbre du temps de la guerre de Mithridate ; un autre Diodoros de Sardes ; enfin, Diodoros de Tarse. On ne sait auquel attribuer les épigrammes où le gentilicium n’est pas spécifié. (Waltz 2003, II:142–43)\n\n\n\n\nCodex palatinus 23, p. 186 (VI.243 vv. 1-2)\n\n\n\nTo :"
   },
   {
     "objectID": "presentation.html#e.g-dionysius-uncertain-attribution-for-common-names",
     "href": "presentation.html#e.g-dionysius-uncertain-attribution-for-common-names",
     "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
     "section": "E.g Dionysius (uncertain attribution for common names)",
-    "text": "E.g Dionysius (uncertain attribution for common names)\n\n\nHow do we make ambiguity and uncertainty readable, especially in a digital context?"
+    "text": "E.g Dionysius (uncertain attribution for common names)\n\n\n\n\n\n\n\nHow do we make ambiguity and uncertainty readable, especially in a digital context?"
   },
   {
     "objectID": "presentation.html#results-from-metadata-cleaning-to-modeling",
@@ -107,6 +107,118 @@
   {
     "objectID": "presentation.html#section-1",
     "href": "presentation.html#section-1",
+    "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
+    "section": "",
+    "text": "Thank you!\n\n\n\n\n\n\nWikidata and Research, University of Florence, June 5-6 2025"
+  },
+  {
+    "objectID": "GuenetteVerstraete.html#introduction",
+    "href": "GuenetteVerstraete.html#introduction",
+    "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
+    "section": "Introduction",
+    "text": "Introduction\n\nWikidata as an open infrastructure for DH knowledge representation\nA decentralisation of authority\n\n\nHow, then, can expert-led projects work with a generalist platform such as Wikidata to generate new forms of knowledge?\nHow do these hybrid models — which combine scholarly expertise with public participation — challenge traditional boundaries between academic and amateur contributors, and between knowledge production and validation?"
+  },
+  {
+    "objectID": "GuenetteVerstraete.html#overview",
+    "href": "GuenetteVerstraete.html#overview",
+    "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
+    "section": "Overview",
+    "text": "Overview\n\n\nWikidata as infrastructure in Digital Humanities\nCase Study: Anthologia Graeca — corpus, platforms, data model (uses of Wikidata)\nFocus: Representing the authors of the Greek Anthology through Wikidata\nSome thoughts on authority and collective intelligence : digital infrastructures challenging and extending traditional scholarly practices."
+  },
+  {
+    "objectID": "GuenetteVerstraete.html#wikidata-and-digital-humanities",
+    "href": "GuenetteVerstraete.html#wikidata-and-digital-humanities",
+    "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
+    "section": "Wikidata and Digital Humanities",
+    "text": "Wikidata and Digital Humanities\n\n\n\nWikidata is a major knowledge graph for structuring and sharing data\nDH projects use it to publish Linked Open Data without technical barriers\nGLAM institutions rely on it for metadata curation and interoperability"
+  },
+  {
+    "objectID": "GuenetteVerstraete.html#wikidata-as-a-linking-hub",
+    "href": "GuenetteVerstraete.html#wikidata-as-a-linking-hub",
+    "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
+    "section": "Wikidata as A Linking Hub",
+    "text": "Wikidata as A Linking Hub"
+  },
+  {
+    "objectID": "GuenetteVerstraete.html#authority-on-digital-platforms",
+    "href": "GuenetteVerstraete.html#authority-on-digital-platforms",
+    "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
+    "section": "Authority on Digital Platforms",
+    "text": "Authority on Digital Platforms"
+  },
+  {
+    "objectID": "GuenetteVerstraete.html#the-greek-anthology",
+    "href": "GuenetteVerstraete.html#the-greek-anthology",
+    "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
+    "section": "The Greek Anthology",
+    "text": "The Greek Anthology\n\n\n\nCirca 4.000 poems\nBy over 300 authors\nFrom the Classical to the Byzantine period\nResult of many compilations\n\n→ A collaborative and digital edition of the Greek Anthology\n\n\n\n\nCodex palatinus graecus 23, p. 143"
+  },
+  {
+    "objectID": "GuenetteVerstraete.html#a-collaborative-and-digital-edition-of-the-greek-anthology",
+    "href": "GuenetteVerstraete.html#a-collaborative-and-digital-edition-of-the-greek-anthology",
+    "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
+    "section": "A collaborative and digital edition of the Greek Anthology",
+    "text": "A collaborative and digital edition of the Greek Anthology\n\n\nhttps://anthologiagraeca.org/ & https://anthologiagraeca.org/api\n\nLed by the Canada Research Chair on Digital Textualities\nFunded by the SSHRC ;\n\nInsight Development (2017-2019)\nInsight (2019-2025)\n2 Connections (2022, 2024)\n\n\n\n\n\n\n\n\n\nLarge and diverse team :\n\nResearchers : M. Vitali-Rosati, E. Bouchard, C. Raschle\nCoordinators : M. Verstraete, W. Bouchard\nDevelopers : D. Larlet, S. Rubio, É. Guicherd\nEditors & contributors from UdeM (Research assistants), Naples (University Students), Bari (High School students)…\nInstitutional partners: CRIHN, Perseus, Perseids, Heidelberg Library, etc."
+  },
+  {
+    "objectID": "GuenetteVerstraete.html#projects-goals",
+    "href": "GuenetteVerstraete.html#projects-goals",
+    "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
+    "section": "Project’s goals",
+    "text": "Project’s goals\n\n\n\nA hub for the Greek Anthology :\n\nManuscript,\nTexts,\nTranslations,\nKeywords,\nCommentaries,\nInternal and External References,\n…\n\nAn Open-source platform : https://anthologiagraeca.org/\nAn API : https://anthologiagraeca.org/api/"
+  },
+  {
+    "objectID": "GuenetteVerstraete.html#the-platforms-keywords",
+    "href": "GuenetteVerstraete.html#the-platforms-keywords",
+    "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
+    "section": "The platform’s keywords",
+    "text": "The platform’s keywords"
+  },
+  {
+    "objectID": "GuenetteVerstraete.html#reconciling-keywords-with-wikidata",
+    "href": "GuenetteVerstraete.html#reconciling-keywords-with-wikidata",
+    "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
+    "section": "Reconciling Keywords with Wikidata",
+    "text": "Reconciling Keywords with Wikidata"
+  },
+  {
+    "objectID": "GuenetteVerstraete.html#e.g-diodoros-ambiguous-entries",
+    "href": "GuenetteVerstraete.html#e.g-diodoros-ambiguous-entries",
+    "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
+    "section": "E.g Diodoros (ambiguous entries)",
+    "text": "E.g Diodoros (ambiguous entries)\n\n\nFrom :\n\n“Diodorus, Diodoros”,\n“Diodore de Tarse, Diodoros le Grammairien”,\n“Diodoros Zonas de Sardes”,\n“diodorus”\n\n\nDiodoros. Trois poètes de la Couronne de Philippe ont porté ce nom : Diodore Zonas, de Sardes, orateur célèbre du temps de la guerre de Mithridate ; un autre Diodoros de Sardes ; enfin, Diodoros de Tarse. On ne sait auquel attribuer les épigrammes où le gentilicium n’est pas spécifié. (Waltz 2003, II:142–43)\n\n\n\n\nCodex palatinus 23, p. 186 (VI.243 vv. 1-2)\n\n\n\nTo :"
+  },
+  {
+    "objectID": "GuenetteVerstraete.html#e.g-dionysius-uncertain-attribution-for-common-names",
+    "href": "GuenetteVerstraete.html#e.g-dionysius-uncertain-attribution-for-common-names",
+    "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
+    "section": "E.g Dionysius (uncertain attribution for common names)",
+    "text": "E.g Dionysius (uncertain attribution for common names)\n\n\n\n\n\n\n\nHow do we make ambiguity and uncertainty readable, especially in a digital context?"
+  },
+  {
+    "objectID": "GuenetteVerstraete.html#results-from-metadata-cleaning-to-modeling",
+    "href": "GuenetteVerstraete.html#results-from-metadata-cleaning-to-modeling",
+    "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
+    "section": "Results : from Metadata Cleaning to Modeling",
+    "text": "Results : from Metadata Cleaning to Modeling\n\n\nBenefits :\n\nOn Anthologia Graeca :\n→ Improved attributions\nOn Wikidata :\n→ Created new items, multilingual labels\nFor both :\n→ More consistent data\n\nChallenges : tensions between interpretive scholarship and structured ontologies\n\nCase study: Pseudo-authors"
+  },
+  {
+    "objectID": "GuenetteVerstraete.html#some-comments-on-the-outcome-and-future-work",
+    "href": "GuenetteVerstraete.html#some-comments-on-the-outcome-and-future-work",
+    "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
+    "section": "Some comments on the outcome and future work",
+    "text": "Some comments on the outcome and future work\n\n\nAuthors : Add more info?\nCities : work in progress\n\n✅ Coordinates\n❌ Names in different languages\n\nOther keywords : work in progress\n\nDo we want to reconcile everything ?\n\nE.g. : “personification of weapons”; “bad breath”?"
+  },
+  {
+    "objectID": "GuenetteVerstraete.html#conclusion",
+    "href": "GuenetteVerstraete.html#conclusion",
+    "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
+    "section": "Conclusion",
+    "text": "Conclusion\n\n\n\nWikidata = More than a technical tool\n→ A collaborative, epistemic space\n→ Delegating authority ≠ losing rigor\n→ Toward a distributed model of expertise\n\nScholars as participants in open, multilingual, evolving systems\n→ challenged to balance openness with academic standards."
+  },
+  {
+    "objectID": "GuenetteVerstraete.html#section-1",
+    "href": "GuenetteVerstraete.html#section-1",
     "title": "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the Greek Anthology",
     "section": "",
     "text": "Thank you!\n\n\n\n\n\n\nWikidata and Research, University of Florence, June 5-6 2025"
