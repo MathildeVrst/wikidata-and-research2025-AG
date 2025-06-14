@@ -1,0 +1,73 @@
+.center {
+    text-align: center;
+  }
+
+  .left {
+    text-align: left;
+  }
+  
+  q {
+    margin-top: 400px;
+  }
+  
+  p.caption {
+    text-align: center;
+    font-size: 10pt;
+  }
+  
+  h1.title {
+    font-size: 50pt;
+  }
+  
+  h1 {
+    font-size: 15px;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  
+  
+  aside div p {
+    font-size: 10pt;
+    text-align: left;
+  }
+  
+  ol li {
+  padding : 20px; 
+  }
+  
+  ul[bob] li {
+    padding: 35px;
+  }
+
+  div[test] div div ul li {
+    font-size: 20pt;
+  }
+
+  .reveal .slide-logo {
+    height: 50px !important;
+    width: 130px !important;
+    max-width: unset !important;
+    max-height: unset !important;
+  }
+
+  p[bob] {
+    text-align: left;
+    font-size: 10pt;
+    margin-top: 606px;
+  }
+  
+  aside div p {
+    text-align: left;
+    font-size: 10pt;
+  }
+  
+  figcaption {
+    text-align: center;
+  }
+
+  .custom-table th, .custom-table td {
+    font-size: 14pt;
+    width: 120%; /* Assurez-vous que la table prend toute la largeur disponible */
+  }

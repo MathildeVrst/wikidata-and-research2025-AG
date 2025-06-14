@@ -35,9 +35,8 @@ title-slide-attributes:
   data-background-image: ./image/Wikidata-logo.png 
   data-background-opacity: "0.35"
 hide-cursor-time: 2000
-embed-resources: true
 scrollable: false
-logo: image/Udem_logo.png
+logo: image/CC
 footer: Wikidata and Research, University of Florence, June 5-6 2025
 css: ./style/style.css
 ---

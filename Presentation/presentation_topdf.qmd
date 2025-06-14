@@ -1,0 +1,351 @@
+---
+title: "Authoritative Practices and Collective Validation: Wikidata within the Collaborative Digital Edition of the *Greek Anthology*"
+author: 
+- name: Maxime Guénette
+  orcid: 0009-0006-2076-1220
+  affiliation: 
+  - name: Université de Montréal
+- name: Mathilde Verstraete
+  orcid: 0000-0003-1642-8610
+  affiliation: 
+  - name: Université de Montréal
+- name: <font color="grey">Marcello Vitali-Rosati</font>
+  orcid: 0000-0001-6424-3229
+  affiliation: 
+  - name: <font color="grey">Université de Montréal</font>
+center-title-slide: true
+echo: true
+date: 05/06/2025
+date-format: long
+lang: en  
+format:
+  revealjs:
+    standalone: false
+    width: 100%
+    height: 100%
+    theme: [default, ./style/style_mono_accent.scss]
+    transition: slide
+    navigation-mode: linear
+auto-stretch: true
+preview-links: true
+slide-number: true
+title-slide-attributes: 
+  data-notes: 
+  data-background-image: ./image/Wikidata-logo.png 
+  data-background-opacity: "0.35"
+hide-cursor-time: 2000
+embed-resources: false
+scrollable: false
+logo: image/by-sa.png
+footer: Wikidata and Research, University of Florence, June 5-6 2025
+css: ./style/style.css
+---
+
+## Introduction
+
+- Wikidata as an open infrastructure for DH knowledge representation 
+- A decentralisation of *authority* 
+
+> How, then, can expert-led projects work with a generalist platform such as Wikidata to generate new forms of knowledge?
+>  
+> How do these hybrid models --- which combine scholarly expertise with public participation --- challenge traditional boundaries between academic and amateur contributors, and between knowledge production and validation?
+
+## Overview
+
+::: {.incremental}
+
+- Wikidata as infrastructure in Digital Humanities
+- Case Study: *Anthologia Graeca* — corpus, platforms, data model (uses of Wikidata) 
+- Focus: Representing the authors of the *Greek Anthology* through Wikidata 
+- Some thoughts on authority and collective intelligence \: digital infrastructures challenging and extending traditional scholarly practices.
+
+:::
+
+## Wikidata and Digital Humanities 
+
+::::{.columns}
+
+:::{.column width="70%"}
+
+- Wikidata is a major knowledge graph for structuring and sharing data 
+- DH projects use it to publish Linked Open Data without technical barriers 
+- GLAM institutions rely on it for metadata curation and interoperability
+
+![](./image/GLAM.png){fig-align="left" height="300"}
+:::
+
+:::{.column width="30%"}
+
+![](./image/Wikidata_logo.png){fig-align="center" width="350"}
+![](./image/DH.png){fig-align="center" width="350"}
+
+:::
+
+::::
+
+## Wikidata as A Linking Hub 
+
+![](./image/MANTO.png){.absolute top="120" left="100" height="200"}
+
+![](./image/Mythoskop.png){.absolute top="350" left="50" height="117"}
+
+![](./image/Pleiades.png){.absolute top="525" left="100" height="200"}
+
+![](./image/Megare_ID.png){.absolute top="100" right="0" height="750"}
+
+## Authority on Digital Platforms
+
+::::{.columns}
+
+:::{.column width="33%"}
+![](./image/Authority.png)
+:::
+
+:::{.column width="33%"}
+![](./image/Wikidata_logo.png)
+:::
+
+:::{.column width="33%"}
+![](./image/Collective_intelligence.jpg)
+:::
+
+::::
+
+![](./image/Anthologia_Graeca.png){.absolute  bottom="50" left="50"}
+
+## The *Greek Anthology*
+
+:::: {.columns}
+::: {.column width="30%"}
+
+- Circa 4.000 poems 
+- By over 300 authors 
+- From the Classical to the Byzantine period
+- Result of many compilations 
+
+→ A collaborative and digital edition of the *Greek Anthology* 
+
+:::
+
+::: {.column width="70%"}
+
+![Codex *palatinus graecus* 23, p. 143](image/CP23_143.png){height="650"}
+
+:::
+:::: 
+
+
+
+
+## A collaborative and digital edition of the *Greek Anthology*  {.smaller}
+
+:::: {.columns}
+::: {.column width='45%'}
+
+<https://anthologiagraeca.org/> & <https://anthologiagraeca.org/api>
+
+- Led by the Canada Research Chair on Digital Textualities 
+- Funded by the SSHRC ;
+  - Insight Development (2017-2019)
+  - Insight (2019-2025)
+  - 2 Connections (2022, 2024)
+
+![](image/Wikidata_AG.drawio.png){.fragment height="200" fig-align="center"}
+:::
+::: {.column width='45%'}
+
+- Large and diverse team :
+  - Researchers : M. Vitali-Rosati, E. Bouchard, C. Raschle
+  - Coordinators : M. Verstraete, W. Bouchard
+  - Developers : D. Larlet, S. Rubio, É. Guicherd 
+  - Editors & contributors from UdeM (Research assistants), Naples (University Students), Bari (High School students)... 
+  - Institutional partners: CRIHN, Perseus, Perseids, Heidelberg Library, etc.
+
+:::
+:::: 
+
+## Project's goals {.scrollable .smaller}
+
+:::: {.columns}
+::: {.column width="30%"}
+
+- A *hub* for the *Greek Anthology* : 
+  - Manuscript, 
+  - Texts, 
+  - Translations, 
+  - Keywords, 
+  - Commentaries, 
+  - Internal and External References, 
+  - ... 
+- An Open-source platform : <https://anthologiagraeca.org/>
+- An API : <https://anthologiagraeca.org/api/> 
+
+:::
+::: {.column width="70%"}
+<video  autoplay loop muted>
+  <source src="image/plateforme.webm" />
+</video>
+:::
+:::: 
+
+## 
+
+![](image/new_kw.png){height="750"}
+
+## The platform's keywords
+
+::: {.columns}
+::: {.column width="33%"}
+![](image/authors.png){height="500"}
+:::
+::: {.column width="33%"}
+![](image/cities.png){height="500"}
+:::
+::: {.column width="33%"}
+![](image/kw.png){height="500"}
+:::
+::: 
+
+## Reconciling Keywords with Wikidata
+
+::: {.columns}
+::: {.column}
+![](image/csv.png){.fragment height="650"}
+:::
+::: {.column}
+![](image/Lucillius.png){.fragment height="650"}
+:::
+:::
+
+## *E.g* Diodoros (ambiguous entries) {.smaller}
+
+::: {.columns}
+::: {.column width="60%"}
+From : 
+
+- “Diodorus, Diodoros”, 
+- “Diodore de Tarse, Diodoros le Grammairien”, 
+- “Diodoros Zonas de Sardes”, 
+- “diodorus”
+
+> Diodoros. Trois poètes de la Couronne de Philippe ont porté ce nom : Diodore Zonas, de Sardes, orateur célèbre du temps de la guerre de Mithridate ; un autre Diodoros de Sardes ; enfin, Diodoros de Tarse. On ne sait auquel attribuer les épigrammes où le gentilicium n’est pas spécifié. (Waltz 2003, II:142–43)
+
+![Codex palatinus 23, p. 186 (VI.243 vv. 1-2)](image/AG6_243.png){.fragment .lightbox width="900"}
+:::
+::: {.column width="40%"}
+To : 
+
+![](image/Diodore.png){height="300"}
+
+![](image/DiodorusSardianus.png){height="350"}
+
+:::
+:::
+
+## *E.g* Dionysius (uncertain attribution for common names)
+
+::: {.columns}
+::: {.column}
+![](image/Dionysius.png){height="600"}
+:::
+::: {.column}
+![](image/Dionysius.drawio.png){height="600"}
+:::
+::: 
+
+
+> How do we make ambiguity and uncertainty readable, especially in a digital context?
+
+
+
+## Results : from Metadata Cleaning to Modeling 
+
+::: {.columns}
+::: {.column width="35%"}
+**Benefits** : 
+
+- On Anthologia Graeca : 
+
+  → Improved attributions
+
+- On Wikidata : 
+
+  → Created new items, multilingual labels 
+
+- For both : 
+  
+  → More consistent data 
+
+**Challenges** : tensions between interpretive scholarship and structured ontologies
+
+:::
+::: {.column width="65%"}
+Case study: ***Pseudo***-authors
+
+![](image/pseudolucian.png){.lightbox width="650"}
+:::
+::: 
+
+## Some comments on the outcome and future work
+
+::: {.columns}
+::: {.column width="35%"}
+
+**Authors** : Add more info?
+
+**Cities** : work in progress 
+
+- ✅ Coordinates 
+- ❌ Names in different languages
+
+**Other keywords** : work in progress 
+
+- Do we want to reconcile everything ? 
+  - *E.g.* : "personification of weapons"; "bad breath"? 
+
+:::
+::: {.column width="65%"}
+
+::: {.r-stack}
+![](image/cities.png){.fragment fragment-index=1 height="650"}
+
+![](image/all_kw.png){.fragment fragment-index=2 height="650"}
+
+![](image/kw204.png){.fragment fragment-index=3 height="250"}
+
+![](image/kw253.png){.fragment fragment-index=4 height="250"}
+:::
+
+:::
+::: 
+
+## Conclusion
+
+::: {.columns}
+::: {.column width="60%"}
+
+- Wikidata = More than a technical tool
+  
+  → A collaborative, epistemic space
+  
+  → Delegating authority ≠ losing rigor
+  
+  → Toward a distributed model of expertise
+
+Scholars as participants in open, multilingual, evolving systems
+
+  → challenged to balance openness with academic standards.
+
+:::
+::: {.column width="40%"}
+
+![](./image/knowledge-sharing.png){width="300" fig-align="center"}
+
+:::
+:::
+
+## {background-image="image/Wikidata-logo.png" background-opacity="0.35"}
+
+<div style="height: 100vh; display: flex; justify-content: center; align-items: center;">
+  <h1 style="font-size: 5em;">Thank you!</h1>
+</div>
