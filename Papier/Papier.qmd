@@ -6,7 +6,7 @@ author:
 - Marcello Vitali-Rosati 
 keywords: Greek Anthology, Digital Philology, Authority, Wikidata, Collective Intelligence
 lang: en
-format: docx
+format: pdf
 abstract: "As collaborative digital platforms become more common in cultural and Digital Humanities projects, the role of non-experts and their contributions to these platforms is shifting. Platforms such as Wikidata invite a reconsideration of where authority lies: not solely in the hands of experts, but also within a wider community of contributors who bring diverse forms of expertise. This development challenges hierarchies in academic and cultural institutions and raises new questions about validation, trust and collaborative knowledge production. In this paper, we explore these questions through the lens of the *Anthologia Graeca* project, where the integration of Wikidata has become a way of rethinking editorial authority as a shared process."
 abstract-title: Abstract
 bibliography: ref.bib
@@ -85,8 +85,6 @@ From the new platform onwards, adding a Wikidata URI became a requirement for cr
 On a methodological point of view, we started by exporting all author names from our platform into a CSV file, which served as both a diagnostic tool and a working basis for reconciliation. We matched names to existing Wikidata entities when possible, flagged ambiguous or missing entries, and created new ones when necessary. For each entry, we aimed to ensure multilingual labels (Latin, French, English, Italian, Ancient Greek). Even at this early stage, we encountered various issues: some errors in our database (e.g., Phanias), duplicate or ambiguous entries (e.g., Diodorus), and uncertain attributions for common names (e.g., Dionysios, Archias). We undertook the philological work of identifying and disambiguating these entries, and then pushed the revised dataset to Wikidata using OpenRefine.
 
 The response from the Wikidata community was immediate and enlightening. Editors quickly pointed out methodological issues and helped correct errors, as documented [in a discussion about our contribution](https://www.wikidata.org/wiki/User_talk:Enrico_malatesta#Epigrammatistes). Some errors highlighted our lack of familiarity with Wikidata conventions, and sparked further discussion about how to prevent such problems (such as [preventing the ability to overwrite existing labels and aliases](https://phabricator.wikimedia.org/T157774)). This process revealed both the strength of the Wikidata community and our own limitations.
-
-Eventually, we re-imported the cleaned data into our platform directly from Wikidata.
 
 Beyond the technical outcome, the process also triggered deeper editorial decisions. Several problematic or overlapping attributions had to be revisited and clarified through philological research. Below, we present a few representative cases that illustrate the nature and complexity of this work.
 
