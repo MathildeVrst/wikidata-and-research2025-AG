@@ -65,7 +65,7 @@ In order to examine these dynamics more thoroughly, we now turn to our case stud
 
 ## A collaborative and digital edition of the *Greek Anthology* 
 
-Since 2014, Marcello Vitali-Rosati and his team have been developing a digital and collaborative edition of the *Greek Anthology* [@verstraetePassesPresentsAnthologiques2024; @verstraete2024; @vitali-rosatiLepopeeNumeriqueLAnthologie2021; @mellet2020; @vitali-rosatiEditorializingGreekAnthology2020]. The project was born out of the need to index and render accessible this foundational corpus, which gathers nearly all the known epigrams of ancient Greek literature. From the beginning, the aim was not only to provide access to these texts, but also to experiment with a digital editorial model suited to their fragmentary nature and complex transmission history. 
+Since 2014, Marcello Vitali-Rosati and his team have been developing a digital and collaborative edition of the *Greek Anthology* [@verstraetePassesPresentsAnthologiques2024; @verstraete2024; @vitali-rosatiLepopeeNumeriqueLAnthologie2021; @mellet2020; @vitali-rosatiEditorializingGreekAnthology2020c]. The project was born out of the need to index and render accessible this foundational corpus, which gathers nearly all the known epigrams of ancient Greek literature. From the beginning, the aim was not only to provide access to these texts, but also to experiment with a digital editorial model suited to their fragmentary nature and complex transmission history. 
 
 Early stages of the project focused on exploring how digital tools could enhance both access to and understanding of that material. Our first prototype --- a SPIP-based website --- provided a foundation for collaborative enrichment and allowed us to begin identifying the technical and hermeneutic challenges of such an edition.
 
@@ -101,7 +101,7 @@ Eventually, we retrieved the data from Wikidata and added it to our platform. Th
 
 #### Phanias
 
-This work allwed us to spot errors made in our platform. For example, our data listed two authors under the name Phanias: "Phanias" (*Eresius*, [TLG-1578](urn:cts:greekLit:tlg1578)) and "Phanias" (*Epigrammaticus*, [TLG-1582](urn:cts:greekLit:tlg1582)). According to Gow and Page [-@gow_greek_1965, 464-475], as well as in the Budé edition [@waltz_anthologie_1929], all extant epigrams should be attributed to the latter. The former, while historically attested, was erroneously credited due to editorial confusion. We corrected this by attributing all epigrams to the appropriate Phanias and updating our metadata accordingly.
+This work allwed us to spot errors made in our platform. For example, our data listed two authors under the name Phanias: "Phanias" (*Eresius*, [TLG-1578](urn:cts:greekLit:tlg1578)) and "Phanias" (*Epigrammaticus*, [TLG-1582](urn:cts:greekLit:tlg1582)). According to Gow and Page [@gowGreekAnthologyHellenistic1965, 464-475], as well as in the Budé edition [@waltz_anthologie_1929], all extant epigrams should be attributed to the latter. The former, while historically attested, was erroneously credited due to editorial confusion. We corrected this by attributing all epigrams to the appropriate Phanias and updating our metadata accordingly.
 
 #### Diodoros
 
@@ -113,7 +113,7 @@ We reconcile this data with Perseus and kept three distinct *Diodorus* in our da
 
 #### Dionysios
 
-The case of Dionysios illustrates the difficulties posed by common names in the manuscript tradition. Next to several epigrams, we find the simple attribution "Διονυσίου" (of Dionysios) without further clarification. Gow and Page [-@gow_greek_1965, 231] note that the name Dionysios is extremely common, and there is no internal evidence to determine how many distinct authors are represented in the *Greek Anthology*. Given this uncertainty, we retained existing individual Dionysios when information allowed ([Dionysius of Andros](urn:cts:greekLit:tlg0168), [Dionysius of Cyzicus](urn:cts:greekLit:tlg0169), [Dionysius of Rhodes](urn:cts:greekLit:tlg0170) and [Dionysius the Sophist](urn:cts:greekLit:tlg0171)), and introduced a generic ["Dionysius"](urn:cts:greekLit:tlg0167) entity for epigrams with unresolved attribution. It is not a perfect solution, and it does not claim to resolve the uncertainty --- but it does allow us to surface that uncertainty clearly, rather than pretending it does not exist. In that sense, it follows the same logic we adopted for the Diodoros entries: not trying to solve an unsolvable problem, but giving it space to be visible and documented. This raises the question of "how do we make ambiguity and uncertainty readable, especially in a digital context?"<!-- common names--> 
+The case of Dionysios illustrates the difficulties posed by common names in the manuscript tradition. Next to several epigrams, we find the simple attribution "Διονυσίου" (of Dionysios) without further clarification. Gow and Page [@gowGreekAnthologyHellenistic1965, 231] note that the name Dionysios is extremely common, and there is no internal evidence to determine how many distinct authors are represented in the *Greek Anthology*. Given this uncertainty, we retained existing individual Dionysios when information allowed ([Dionysius of Andros](urn:cts:greekLit:tlg0168), [Dionysius of Cyzicus](urn:cts:greekLit:tlg0169), [Dionysius of Rhodes](urn:cts:greekLit:tlg0170) and [Dionysius the Sophist](urn:cts:greekLit:tlg0171)), and introduced a generic ["Dionysius"](urn:cts:greekLit:tlg0167) entity for epigrams with unresolved attribution. It is not a perfect solution, and it does not claim to resolve the uncertainty --- but it does allow us to surface that uncertainty clearly, rather than pretending it does not exist. In that sense, it follows the same logic we adopted for the Diodoros entries: not trying to solve an unsolvable problem, but giving it space to be visible and documented. This raises the question of "how do we make ambiguity and uncertainty readable, especially in a digital context?"<!-- common names--> 
 
 #### Archias
 
@@ -121,15 +121,15 @@ Finally, the name Archias presented one of the most tangled cases. Our platform 
 
 The Budé editions add further complexity, identifying five different individuals under the name Archias, across various volumes:
 
-- Archias of Antioch, also identified as A. Licinius Archias [@waltz_anthologie_2003, 141; @waltz_anthologie_1931, 184; @waltz_anthologie_1960, 175; @waltz_anthologie_1974, 281; @irigoin_anthologie_2017, 69; @aubreton_anthologie_1980, 302]; 
+- Archias of Antioch, also identified as A. Licinius Archias [@waltz_anthologie_2003, 141; @waltz_anthologie_1931, 184; @waltz_anthologie_1960, 175; @waltz_anthologie_1974, 281; @irigoinAnthologieGrecqueTome2017, 69; @aubreton_anthologie_1980, 302]; 
 - Archias of Byzantium, attributed to the *Garland of Philip* [@waltz_anthologie_1960, 175]; 
 - Archias of Macedon, whose very existence is contested [@waltz_anthologie_1960, 175]; 
 - Archias of Mytilene, possibly contemporary with Archias of Antioch [@waltz_anthologie_1960, 175; @waltz_anthologie_1974, 281]; 
-- Archias the Younger, a poorly known poet from the *Garland of Philip*, possibly the same as Archias of Antioch [@waltz_anthologie_1974, 281; @irigoin_anthologie_2017, 69].
+- Archias the Younger, a poorly known poet from the *Garland of Philip*, possibly the same as Archias of Antioch [@waltz_anthologie_1974, 281; @irigoinAnthologieGrecqueTome2017, 69].
 
 To complicate matters further, Gow and Page, discussing epigrams attributed to "Archias of Byzantium", introduce yet another figure, "Archias Grammaticus":
 
-> Archias Grammaticus may be a different person from, or the same person as, the Byzantine; we simply do not know. [-@gow_greek_1965, 434-435]
+> Archias Grammaticus may be a different person from, or the same person as, the Byzantine; we simply do not know. [@gowGreekAnthologyHellenistic1965, 434-435]
 
 Faced with this level of ambiguity, we adopted a layered model: creating distinct Wikidata entries for historically or textually identifiable individuals, and adding disambiguation notes within our platform for uncertain or overlapping cases. This approach allows us to remain consistent with scholarly conventions while aligning with established infrastructures (TLG, Perseus, Wikidata).
 
